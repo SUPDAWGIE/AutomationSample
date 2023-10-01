@@ -1,9 +1,9 @@
 @echo off
 
 rem Engine params
-set EnginePath_4.26=C:\Epic Games\UE Binary\UE_4.26
-set EnginePath_5.0=C:\Epic Games\UE Binary\UE_5.0
-set EnginePath_5.1_InstalledBuild=c:\Epic Games\UE Source\UE_5\Windows
+set EnginePath_5.1=C:\Program Files\Epic Games\UE_5.1
+set EnginePath_5.2=C:\Program Files\Epic Games\UE_5.2
+set EnginePath_5.3=C:\Program Files\Epic Games\UE_5.3
 
 set UBTRelativePath4=Engine\Binaries\DotNET\UnrealBuildTool.exe
 set UBTRelativePath5=Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.exe
@@ -20,7 +20,7 @@ set RunUATPath=%CurrentEnginePath%\Engine\Build\BatchFiles\RunUAT.bat
 
 rem Project params
 set ProjectRoot=%~dp0..
-set ProjectPureName=TPS
+set ProjectPureName=AutomationSample
 set ProjectName=%ProjectPureName%.uproject
 set ProjectPath=%ProjectRoot%\%ProjectName%
 
