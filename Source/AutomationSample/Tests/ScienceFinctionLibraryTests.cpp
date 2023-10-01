@@ -23,8 +23,8 @@ bool FFibonacciSimple::RunTest(const FString& Parameters)
 
     // 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
 
-    const TArray<AutomationSample::TestPayload<int32, int32>> TestData{{0, 0}, {1, 1}, {2, 1}, {3, 2}, {4, 3}, {5, 5}, {6, 8}, {7, 13},
-        {8, 21}, {9, 34}, {10, 55}, {11, 89}, {12, 144}, {13, 233}, {14, 377}};
+    const TArray<TPS::Test::TestPayload<int32, int32>> TestData{{0, 0}, {1, 1}, {2, 1}, {3, 2}, {4, 3}, {5, 5}, {6, 8}, {7, 13}, {8, 21},
+        {9, 34}, {10, 55}, {11, 89}, {12, 144}, {13, 233}, {14, 377}};
 
     for (const auto& Test : TestData)
     {

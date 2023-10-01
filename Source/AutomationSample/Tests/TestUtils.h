@@ -2,7 +2,9 @@
 
 #include "CoreMinimal.h"
 
-namespace AutomationSample
+namespace TPS
+{
+namespace Test
 {
 template <typename Type1, typename Type2>
 struct TestPayload
@@ -11,4 +13,5 @@ struct TestPayload
     Type2 ExpectedValue;
     float Tolerance = KINDA_SMALL_NUMBER;
 };
-}  // namespace AutomationSample
+}  // namespace Test
+}  // namespace TPS
