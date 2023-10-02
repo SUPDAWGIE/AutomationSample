@@ -10,6 +10,7 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
+#include "Components/TPSInventoryActorComponent.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -53,6 +54,8 @@ AAutomationSampleCharacter::AAutomationSampleCharacter()
 
     // Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character)
     // are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
+
+    InventoryComponent = CreateDefaultSubobject<UTPSInventoryActorComponent>(TEXT("InventoryComponent"));
 }
 
 void AAutomationSampleCharacter::BeginPlay()

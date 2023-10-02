@@ -10,7 +10,7 @@ set UBTRelativePath5=Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.exe
 set VersionSelector=c:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\UnrealVersionSelector.exe
 
 rem Current engine path
-set CurrentEnginePath=%EnginePath_5.0%
+set CurrentEnginePath=%EnginePath_5.3%
 
 rem Editor path (Note: path for UE4: "..\UE4Editor.exe")
 set EditorPath=%CurrentEnginePath%\Engine\Binaries\Win64\UnrealEditor.exe
