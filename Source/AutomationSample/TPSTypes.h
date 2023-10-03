@@ -18,8 +18,8 @@ struct FInventoryData
     GENERATED_USTRUCT_BODY()
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    EInventoryItemType Type;
+    EInventoryItemType Type = EInventoryItemType::SPHERE;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (ClampMin = "0"))
-    int32 Score;
+    int32 Score = 0;
 };

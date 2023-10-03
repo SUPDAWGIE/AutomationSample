@@ -39,6 +39,7 @@ void UTPSInventoryActorComponent::BeginPlay()
 {
     Super::BeginPlay();
 
+#if !UE_BUILD_SHIPPING
     const UEnum* InvEnum = StaticEnum<EInventoryItemType>();
     check(InvEnum);
     for (int32 i = 0; i < InvEnum->NumEnums() - 1; ++i)
@@ -49,4 +50,5 @@ void UTPSInventoryActorComponent::BeginPlay()
         checkf(LimitCheckCondition, TEXT("InventoryLimits does not contain %s or less zero"), *EnumElemName);
         Inventory.Add(EnumElem, 0);
     }
+#endif
 }
