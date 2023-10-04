@@ -1,8 +1,12 @@
 // My game copyright
 
+#include "AutomationSampleCharacter.h"
+#include "Components/TPSInventoryActorComponent.h"
+#include "Kismet/GameplayStatics.h"
 #if WITH_AUTOMATION_TESTS
 
 #include "AutomationSample/Tests/TPSInventoryItemTests.h"
+#include "Misc/OutputDeviceNull.h"
 #include "Components/SphereComponent.h"
 #include "Components/TextRenderComponent.h"
 #include "CoreMinimal.h"
@@ -17,11 +21,20 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(FCppActorCantBeCreated, "AutomationSample.Items
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FBlueprintShouldBeSetupCorrectly, "AutomationSample.Items.Inventory.BlueprintShouldBeSetupCorrectly",
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
 
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(FInventoryDataShouldBeSetupCorrectly,
+    "AutomationSample.Items.Inventory.InventoryDataShouldBeSetupCorrectly",
+    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
+
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(FInventoryCanBeTaken, "AutomationSample.Items.Inventory.InventoryCanBeTaken",
+    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
+
 namespace
 {
 constexpr const char* InventoryItemBlueprintPath =
     "/Script/Engine.Blueprint'/Game/AutomationSample/BP_TPSInventoryItem.BP_TPSInventoryItem'";
-}
+constexpr const char* InventoryItemBlueprintTestPath =
+    "/Script/Engine.Blueprint'/Game/AutomationSample/Tests/BP_Test_TPSInventoryItem.BP_Test_TPSInventoryItem'";
+}  // namespace
 
 using namespace TPS::Test;
 
@@ -97,6 +110,121 @@ bool FBlueprintShouldBeSetupCorrectly::RunTest(const FString& Parameters)
     }
 
     TestTrueExpr(StaticMeshComponent->GetCollisionEnabled() == ECollisionEnabled::NoCollision);
+
+    return true;
+}
+
+bool FInventoryDataShouldBeSetupCorrectly::RunTest(const FString& Parameters)
+{
+    LevelScope(TEXT("Game/AutomationSample/Tests/EmptyTestLevel"));
+
+    UWorld* World = AutomationCommon::GetAnyGameWorld();
+    if (!TestNotNull("World could be created", World))
+    {
+        return false;
+    }
+
+    const FTransform InitialTransform{FVector(1000.f)};
+    ATPSInventoryItem* InventoryItem = CreateBlueprint<ATPSInventoryItem>(World, InventoryItemBlueprintTestPath, InitialTransform);
+    if (!TestNotNull("Inventory Item could be created", InventoryItem))
+    {
+        return false;
+    }
+
+    // const FVector TestVector{1.f, 2.f, 3.f};
+    // CallFuncByNameWithParams(InventoryItem, TEXT("SetTestData"), {FString::FromInt(123), FString::SanitizeFloat(456.789f), FString("\"My
+    // cool string\""), FString("Yes"), FString::Printf(TEXT("(X=%f,Y=%f,Z=%f)"), TestVector.X, TestVector.Y, TestVector.Z)});
+
+    const FLinearColor Color = FLinearColor::Yellow;
+    const FInventoryData InventoryData{EInventoryItemType::CYLINDER, 13};
+    CallFuncByNameWithParams(InventoryItem, TEXT("SetInventoryData"), {InventoryData.ToString(), Color.ToString()});
+
+    const UTextRenderComponent* TextRenderComponent = InventoryItem->FindComponentByClass<UTextRenderComponent>();
+    if (!TestNotNull("Text Render Component could be found", TextRenderComponent))
+    {
+        return false;
+    }
+
+    TestTrueExpr(TextRenderComponent->Text.ToString().Equals(FString::FromInt(InventoryData.Score)));
+    TestTrueExpr(TextRenderComponent->TextRenderColor == Color.ToFColor(true));
+
+    const UStaticMeshComponent* StaticMeshComponent = InventoryItem->FindComponentByClass<UStaticMeshComponent>();
+    if (!TestNotNull("Static Mesh Component could be found", StaticMeshComponent))
+    {
+        return false;
+    }
+
+    const auto Material = StaticMeshComponent->GetMaterial(0);
+    if (!TestNotNull("Material could be found", Material))
+    {
+        return false;
+    }
+
+    FLinearColor MaterialColor;
+    Material->GetVectorParameterValue(FName("Color"), MaterialColor);
+    TestTrueExpr(MaterialColor == Color);
+
+    return true;
+}
+
+bool FInventoryCanBeTaken::RunTest(const FString& Parameters)
+{
+    LevelScope(TEXT("Game/AutomationSample/Tests/EmptyTestLevel"));
+
+    UWorld* World = AutomationCommon::GetAnyGameWorld();
+    if (!TestNotNull("World could be created", World))
+    {
+        return false;
+    }
+
+    const FTransform InitialTransform{FVector(1000.f)};
+    ATPSInventoryItem* InventoryItem = CreateBlueprint<ATPSInventoryItem>(World, InventoryItemBlueprintTestPath, InitialTransform);
+    if (!TestNotNull("Inventory Item could be created", InventoryItem))
+    {
+        return false;
+    }
+
+    // const FVector TestVector{1.f, 2.f, 3.f};
+    // CallFuncByNameWithParams(InventoryItem, TEXT("SetTestData"), {FString::FromInt(123), FString::SanitizeFloat(456.789f), FString("\"My
+    // cool string\""), FString("Yes"), FString::Printf(TEXT("(X=%f,Y=%f,Z=%f)"), TestVector.X, TestVector.Y, TestVector.Z)});
+
+    const FLinearColor Color = FLinearColor::Yellow;
+    const EInventoryItemType ItemType = EInventoryItemType::CYLINDER;
+    const int32 ItemScore = 13;
+    const FInventoryData InventoryData{ItemType, ItemScore};
+    CallFuncByNameWithParams(InventoryItem, TEXT("SetInventoryData"), {InventoryData.ToString(), Color.ToString()});
+
+    TArray<AActor*> Pawns;
+    UGameplayStatics::GetAllActorsOfClass(World, APawn::StaticClass(), Pawns);
+    if (!TestTrue("There is one pawn in the world", Pawns.Num() == 1))
+    {
+        return false;
+    }
+
+    AAutomationSampleCharacter* Character = Cast<AAutomationSampleCharacter>(Pawns[0]);
+    if (!TestNotNull("Character could be found", Character))
+    {
+        return false;
+    }
+
+    UTPSInventoryActorComponent* InventoryComponent = Character->FindComponentByClass<UTPSInventoryActorComponent>();
+    if (!TestNotNull("Inventory Component could be found", InventoryComponent))
+    {
+        return false;
+    }
+
+    TestTrueExpr(InventoryComponent->GetInventoryAmountByType(ItemType) == 0);
+
+    Character->SetActorLocation(InitialTransform.GetLocation());
+
+    TestTrueExpr(InventoryComponent->GetInventoryAmountByType(ItemType) == ItemScore);
+
+    TestTrueExpr(!IsValid(InventoryItem));
+
+    TArray<AActor*> InventoryItems;
+
+    UGameplayStatics::GetAllActorsOfClass(World, ATPSInventoryItem::StaticClass(), InventoryItems);
+    TestTrueExpr(InventoryItems.Num() == 0);
 
     return true;
 }

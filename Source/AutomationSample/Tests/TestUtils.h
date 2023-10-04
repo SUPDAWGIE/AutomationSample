@@ -44,6 +44,8 @@ public:
     LevelScope(const FString& LevelName) { AutomationOpenMap(LevelName); }
     ~LevelScope() { ADD_LATENT_AUTOMATION_COMMAND(FExitGameCommand); }
 };
+
+void CallFuncByNameWithParams(UObject* Object, const FString& FuncName, const TArray<FString>& Params);
 }  // namespace Test
 }  // namespace TPS
 #endif
