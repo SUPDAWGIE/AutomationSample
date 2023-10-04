@@ -1,7 +1,7 @@
-﻿#include "Misc/OutputDeviceNull.h"
-#if WITH_AUTOMATION_TESTS
+﻿#if WITH_AUTOMATION_TESTS
 
 #include "AutomationSample/Tests/TestUtils.h"
+#include "Misc/OutputDeviceNull.h"
 
 namespace TPS
 {

@@ -1,11 +1,11 @@
 // My game copyright
 
-#include "AutomationSampleCharacter.h"
-#include "Components/TPSInventoryActorComponent.h"
-#include "Kismet/GameplayStatics.h"
 #if WITH_AUTOMATION_TESTS
 
 #include "AutomationSample/Tests/TPSInventoryItemTests.h"
+#include "AutomationSampleCharacter.h"
+#include "Components/TPSInventoryActorComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "Misc/OutputDeviceNull.h"
 #include "Components/SphereComponent.h"
 #include "Components/TextRenderComponent.h"
@@ -26,6 +26,9 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(FInventoryDataShouldBeSetupCorrectly,
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FInventoryCanBeTaken, "AutomationSample.Items.Inventory.InventoryCanBeTaken",
+    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
+
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(FEveryInventoryItemExists, "AutomationSample.Items.Inventory.EveryInventoryItemExists",
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
 
 namespace
@@ -226,6 +229,43 @@ bool FInventoryCanBeTaken::RunTest(const FString& Parameters)
     UGameplayStatics::GetAllActorsOfClass(World, ATPSInventoryItem::StaticClass(), InventoryItems);
     TestTrueExpr(InventoryItems.Num() == 0);
 
+    return true;
+}
+
+bool FEveryInventoryItemExists::RunTest(const FString& Parameters)
+{
+    LevelScope(TEXT("Game/AutomationSample/Tests/EmptyTestLevel"));
+
+    UWorld* World = AutomationCommon::GetAnyGameWorld();
+    if (!TestNotNull("World could be created", World))
+    {
+        return false;
+    }
+
+    ENUM_LOOP_START(EInventoryItemType, EnumElem)
+    const FTransform InitialTransform{FVector(100.f * (index + 1))};
+    ATPSInventoryItem* InventoryItem = CreateBlueprint<ATPSInventoryItem>(World, InventoryItemBlueprintTestPath, InitialTransform);
+    if (!TestNotNull("Inventory Item could be created", InventoryItem))
+    {
+        return false;
+    }
+
+    const FLinearColor Color = FLinearColor::Red;
+    const EInventoryItemType ItemType = EnumElem;
+    const int32 ItemScore = 13;
+    const FInventoryData InventoryData{ItemType, ItemScore};
+    CallFuncByNameWithParams(InventoryItem, TEXT("SetInventoryData"), {InventoryData.ToString(), Color.ToString()});
+
+    const UStaticMeshComponent* StaticMeshComponent = InventoryItem->FindComponentByClass<UStaticMeshComponent>();
+    if (!TestNotNull("Static Mesh Component could be found", StaticMeshComponent))
+    {
+        return false;
+    }
+
+    const FString MeshMsg = FString::Printf(TEXT("Mesh for %s is not set"), *InventoryItem->GetName());
+    TestNotNull(MeshMsg, StaticMeshComponent->GetStaticMesh().Get());
+
+    ENUM_LOOP_END
     return true;
 }
 

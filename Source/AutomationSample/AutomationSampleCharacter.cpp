@@ -72,6 +72,16 @@ void AAutomationSampleCharacter::BeginPlay()
             Subsystem->AddMappingContext(DefaultMappingContext, 0);
         }
     }
+
+    check(HealthData.MaxHealth > 0.0f);
+    Health = HealthData.MaxHealth;
+
+    OnTakeAnyDamage.AddDynamic(this, &AAutomationSampleCharacter::OnTakeDamage);
+}
+
+float AAutomationSampleCharacter::GetHealthPercent() const
+{
+    return Health / HealthData.MaxHealth;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -99,6 +109,55 @@ void AAutomationSampleCharacter::SetupPlayerInputComponent(UInputComponent* Play
             TEXT("'%s' Failed to find an Enhanced Input component! This template is built to use the Enhanced Input system. If you intend "
                  "to use the legacy system, then you will need to update this C++ file."),
             *GetNameSafe(this));
+    }
+}
+
+void AAutomationSampleCharacter::OnHealing()
+{
+    Health = FMath::Clamp(Health + HealthData.HealModifier, 0.f, HealthData.MaxHealth);
+    if (FMath::IsNearlyEqual(Health, HealthData.MaxHealth))
+    {
+        Health = HealthData.MaxHealth;
+        GetWorldTimerManager().ClearTimer(HelathTimerHandle);
+    }
+}
+
+void AAutomationSampleCharacter::OnDeath()
+{
+    GetWorldTimerManager().ClearTimer(HelathTimerHandle);
+
+    check(GetCharacterMovement());
+    check(GetCapsuleComponent());
+    check(GetMesh());
+    GetCharacterMovement()->DisableMovement();
+    GetCapsuleComponent()->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+    GetMesh()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+    GetMesh()->SetSimulatePhysics(true);
+    if (Controller)
+    {
+        Controller->ChangeState(NAME_Spectating);
+    }
+    SetLifeSpan(HealthData.LifeSpan);
+}
+
+void AAutomationSampleCharacter::OnTakeDamage(
+    AActor* DamagedActor, float Damage, const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser)
+{
+    const auto IsAlive = [&]() { return Health > 0.f; };
+
+    if (Damage <= 0.f || !IsAlive())
+    {
+        return;
+    }
+
+    Health = FMath::Clamp(Health - Damage, 0.f, HealthData.MaxHealth);
+    if (IsAlive())
+    {
+        GetWorldTimerManager().SetTimer(HelathTimerHandle, this, &AAutomationSampleCharacter::OnHealing, HealthData.HealRate, true, -1.f);
+    }
+    else
+    {
+        OnDeath();
     }
 }
 

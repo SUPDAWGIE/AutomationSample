@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "TPSTypes.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
 #include "AutomationSampleCharacter.generated.h"
@@ -71,4 +72,20 @@ public:
 protected:
     UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
     UTPSInventoryActorComponent* InventoryComponent;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health")
+    FHealthData HealthData;
+
+    UFUNCTION(BlueprintCallable, Category = "Health")
+    float GetHealthPercent() const;
+
+private:
+    float Health{100.0f};
+    FTimerHandle HelathTimerHandle;
+
+    void OnHealing();
+    void OnDeath();
+
+    UFUNCTION()
+    void OnTakeDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser);
 };
