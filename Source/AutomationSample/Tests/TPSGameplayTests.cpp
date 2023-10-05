@@ -19,11 +19,15 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(FInventoryItemCantBeTakenOnJumpIfTooHigh,
     "AutomationSample.Gameplay.InventoryItemCantBeTakenOnJumpIfTooHigh",
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
 
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(FAllItemsCanBeTakenOnMovement, "AutomationSample.Gameplay.AllItemsCanBeTakenOnMovement",
+    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
+
 using namespace TPS::Test;
 
 namespace
 {
-void ExecuteInputAction(const ACharacter* Character, const FString& Command, const float& Value)
+void ExecuteInputAction(
+    const ACharacter* Character, const FString& Command, const float& Value, const TArray<UInputModifier*>& Modifiers = {})
 {
     const UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(Character->InputComponent);
     UEnhancedPlayerInput* EnhancedInput = Cast<UEnhancedPlayerInput>(Character->GetLocalViewingPlayerController()->PlayerInput);
@@ -31,7 +35,7 @@ void ExecuteInputAction(const ACharacter* Character, const FString& Command, con
     {
         if (ActionEventBinding->GetAction()->GetName() == Command)
         {
-            EnhancedInput->InjectInputForAction(ActionEventBinding->GetAction(), Value);
+            EnhancedInput->InjectInputForAction(ActionEventBinding->GetAction(), Value, Modifiers);
             break;
         }
     }
@@ -120,6 +124,53 @@ bool FInventoryItemCantBeTakenOnJumpIfTooHigh::RunTest(const FString& Parameters
             TestTrueExpr(InventoryItemsAfterJump.Num() == 1);
         },
         2.0f));
+
+    return true;
+}
+
+bool FAllItemsCanBeTakenOnMovement::RunTest(const FString& Parameters)
+{
+    const auto Level = LevelScope(TEXT("/Game/AutomationSample/Tests/InventoryTestLevel3"));
+
+    UWorld* World = AutomationCommon::GetAnyGameWorld();
+    if (!TestNotNull("World could be created", World))
+    {
+        return false;
+    }
+
+    ACharacter* Character = UGameplayStatics::GetPlayerCharacter(World, 0);
+    if (!TestNotNull("Character could be created", Character))
+    {
+        return false;
+    }
+
+    TArray<AActor*> InventoryItems;
+
+    UGameplayStatics::GetAllActorsOfClass(World, ATPSInventoryItem::StaticClass(), InventoryItems);
+    if (!TestEqual("Inventory items count", InventoryItems.Num(), 7))
+    {
+        return false;
+    }
+    UInputModifierSwizzleAxis* SwizzleAxisModifier = NewObject<UInputModifierSwizzleAxis>();
+    SwizzleAxisModifier->Order = EInputAxisSwizzle::YXZ;
+
+    ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
+    ADD_LATENT_AUTOMATION_COMMAND(FTPSUntilCommand([this, Character, SwizzleAxisModifier]()
+        { ExecuteInputAction(Character, "IA_Move", 1.0f, {SwizzleAxisModifier}); },
+        []() {}, 2.5f));
+    ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
+    ADD_LATENT_AUTOMATION_COMMAND(FJumpLatentCommand(Character));
+    ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
+    ADD_LATENT_AUTOMATION_COMMAND(
+        FTPSUntilCommand([this, Character, SwizzleAxisModifier]() { ExecuteInputAction(Character, "IA_Move", 1.0f); },
+            [this, Character]()
+            {
+                TArray<AActor*> InventoryItemsAfterJump;
+                UGameplayStatics::GetAllActorsOfClass(Character, ATPSInventoryItem::StaticClass(), InventoryItemsAfterJump);
+                TestTrueExpr(InventoryItemsAfterJump.Num() == 0);
+                return true;
+            },
+            2.0f));
 
     return true;
 }

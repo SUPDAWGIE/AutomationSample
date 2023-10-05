@@ -52,6 +52,19 @@ public:
     ~LevelScope() { ADD_LATENT_AUTOMATION_COMMAND(FExitGameCommand); }
 };
 
+class FTPSUntilCommand : public IAutomationLatentCommand
+{
+public:
+    FTPSUntilCommand(TFunction<void()> InCallback, TFunction<void()> InTimeoutCallback, float InTimeout = 5.0f);
+
+    virtual bool Update() override;
+
+private:
+    TFunction<void()> Callback;
+    TFunction<void()> TimeoutCallback;
+    float Timeout;
+};
+
 void CallFuncByNameWithParams(UObject* Object, const FString& FuncName, const TArray<FString>& Params);
 }  // namespace Test
 }  // namespace TPS
