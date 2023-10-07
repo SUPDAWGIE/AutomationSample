@@ -8,12 +8,12 @@ namespace TPS
 namespace Test
 {
 
-FTPSUntilCommand::FTPSUntilCommand(TFunction<void()> InCallback, TFunction<void()> InTimeoutCallback, float InTimeout)
+FTPSUntilLatentCommand::FTPSUntilLatentCommand(TFunction<void()> InCallback, TFunction<void()> InTimeoutCallback, float InTimeout)
     : Callback(MoveTemp(InCallback)), TimeoutCallback(MoveTemp(InTimeoutCallback)), Timeout(InTimeout)
 {
 }
 
-bool FTPSUntilCommand::Update()
+bool FTPSUntilLatentCommand::Update()
 {
     const double NewTime = FPlatformTime::Seconds();
     if (NewTime - StartTime >= Timeout)

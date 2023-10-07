@@ -52,10 +52,10 @@ public:
     ~LevelScope() { ADD_LATENT_AUTOMATION_COMMAND(FExitGameCommand); }
 };
 
-class FTPSUntilCommand : public IAutomationLatentCommand
+class FTPSUntilLatentCommand : public IAutomationLatentCommand
 {
 public:
-    FTPSUntilCommand(TFunction<void()> InCallback, TFunction<void()> InTimeoutCallback, float InTimeout = 5.0f);
+    FTPSUntilLatentCommand(TFunction<void()> InCallback, TFunction<void()> InTimeoutCallback, float InTimeout = 5.0f);
 
     virtual bool Update() override;
 

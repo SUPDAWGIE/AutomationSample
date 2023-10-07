@@ -31,6 +31,7 @@ void ExecuteInputAction(
 {
     const UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(Character->InputComponent);
     UEnhancedPlayerInput* EnhancedInput = Cast<UEnhancedPlayerInput>(Character->GetLocalViewingPlayerController()->PlayerInput);
+
     for (auto& ActionEventBinding : EnhancedInputComponent->GetActionEventBindings())
     {
         if (ActionEventBinding->GetAction()->GetName() == Command)
@@ -46,10 +47,11 @@ DEFINE_LATENT_AUTOMATION_COMMAND_ONE_PARAMETER(FJumpLatentCommand, ACharacter*, 
 
 bool FJumpLatentCommand::Update()
 {
-    if (Character)
+    if (!Character)
     {
-        ExecuteInputAction(Character, "IA_Jump", 1.0f);
+        return true;
     }
+    ExecuteInputAction(Character, "IA_Jump", 1.0f);
     return true;
 }
 bool FInventoryItemCanBeTakenOnJump::RunTest(const FString& Parameters)
@@ -155,14 +157,14 @@ bool FAllItemsCanBeTakenOnMovement::RunTest(const FString& Parameters)
     SwizzleAxisModifier->Order = EInputAxisSwizzle::YXZ;
 
     ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
-    ADD_LATENT_AUTOMATION_COMMAND(FTPSUntilCommand([this, Character, SwizzleAxisModifier]()
+    ADD_LATENT_AUTOMATION_COMMAND(FTPSUntilLatentCommand([this, Character, SwizzleAxisModifier]()
         { ExecuteInputAction(Character, "IA_Move", 1.0f, {SwizzleAxisModifier}); },
         []() {}, 2.5f));
     ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
     ADD_LATENT_AUTOMATION_COMMAND(FJumpLatentCommand(Character));
     ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
     ADD_LATENT_AUTOMATION_COMMAND(
-        FTPSUntilCommand([this, Character, SwizzleAxisModifier]() { ExecuteInputAction(Character, "IA_Move", 1.0f); },
+        FTPSUntilLatentCommand([this, Character, SwizzleAxisModifier]() { ExecuteInputAction(Character, "IA_Move", 1.0f); },
             [this, Character]()
             {
                 TArray<AActor*> InventoryItemsAfterJump;
