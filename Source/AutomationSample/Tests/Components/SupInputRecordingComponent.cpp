@@ -3,6 +3,7 @@
 #include "Tests/Components/SupInputRecordingComponent.h"
 
 #include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
 #include "EnhancedPlayerInput.h"
 #include "Kismet/GameplayStatics.h"
 #include "Tests/TestUtils.h"
@@ -50,8 +51,16 @@ FBindingsData USupInputRecordingComponent::MakeBindingsData() const
 
     for (auto& ActionEventBinding : EnhancedInputComponent->GetActionEventBindings())
     {
+        // UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>();
+        // Subsystem->GetPlayerInput()->GetActionValue(ActionEventBinding->GetAction());
+        // const FVector Value =
+        // Subsystem->GetPlayerInput()->GetActionValue(ActionEventBinding->GetAction()).ConvertToType(EInputActionValueType::Axis3D).Get<FVector>();
         BindingsData.AxisValues.Add(FAxisData{
-            ActionEventBinding->GetAction()->GetFName(), EnhancedInput->GetActionValue(ActionEventBinding->GetAction()).GetMagnitude()});
+            ActionEventBinding->GetAction()->GetFName(), EnhancedInput->GetActionValue(ActionEventBinding->GetAction()).Get<FVector>()});
+        // print value
+        GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red,
+            FString::Printf(TEXT("Action: %s, Value: %s"), *ActionEventBinding->GetAction()->GetFName().ToString(),
+                *EnhancedInput->GetActionValue(ActionEventBinding->GetAction()).Get<FVector>().ToString()));
     }
 
     return BindingsData;

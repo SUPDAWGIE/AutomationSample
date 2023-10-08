@@ -14,7 +14,7 @@ struct FAxisData
     FName Name;
 
     UPROPERTY()
-    float Value{0.0f};
+    FVector Value{0.0f};
 };
 
 USTRUCT()

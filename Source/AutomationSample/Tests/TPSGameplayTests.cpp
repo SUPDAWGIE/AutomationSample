@@ -1,5 +1,6 @@
 // My game copyright
 
+#include "EnhancedInputSubsystems.h"
 #if WITH_AUTOMATION_TESTS
 
 #include "AutomationSample/Tests/TPSGameplayTests.h"
@@ -42,6 +43,24 @@ void ExecuteInputAction(
         if (ActionEventBinding->GetAction()->GetName() == Command)
         {
             EnhancedInput->InjectInputForAction(ActionEventBinding->GetAction(), Value, Modifiers);
+            break;
+        }
+    }
+}
+
+void ExecuteVectorInputAction(const ACharacter* Character, const FString& Command, const FVector& Value,
+    const TArray<UInputModifier*>& Modifiers = {}, const TArray<UInputTrigger*>& Triggers = {})
+{
+    const UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(Character->InputComponent);
+    UEnhancedPlayerInput* EnhancedInput = Cast<UEnhancedPlayerInput>(Character->GetLocalViewingPlayerController()->PlayerInput);
+
+    for (auto& ActionEventBinding : EnhancedInputComponent->GetActionEventBindings())
+    {
+        if (ActionEventBinding->GetAction()->GetName() == Command)
+        {
+            UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(
+                Character->GetLocalViewingPlayerController()->GetLocalPlayer());
+            Subsystem->InjectInputVectorForAction(ActionEventBinding->GetAction(), Value, Modifiers, Triggers);
             break;
         }
     }
@@ -206,7 +225,7 @@ public:
             const auto& AxisValues = Bindings[Index].AxisValues;
             for (const auto& AxisValue : AxisValues)
             {
-                ExecuteInputAction(Cast<ACharacter>(InputComponent->GetOwner()), AxisValue.Name.ToString(), AxisValue.Value);
+                ExecuteVectorInputAction(Cast<ACharacter>(InputComponent->GetOwner()), AxisValue.Name.ToString(), AxisValue.Value);
             }
             if (++Index >= Bindings.Num())
             {
