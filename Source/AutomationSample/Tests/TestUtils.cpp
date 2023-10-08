@@ -40,6 +40,11 @@ void CallFuncByNameWithParams(UObject* Object, const FString& FuncName, const TA
     FOutputDeviceNull NullOutputDevice;
     Object->CallFunctionByNameWithArguments(*Command, NullOutputDevice, nullptr, true);
 }
+
+FString GetTestDataDir()
+{
+    return FPaths::GameSourceDir().Append("AutomationSample/Tests/Data/");
+}
 }  // namespace Test
 }  // namespace TPS
 

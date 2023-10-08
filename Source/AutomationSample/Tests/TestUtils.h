@@ -66,6 +66,9 @@ private:
 };
 
 void CallFuncByNameWithParams(UObject* Object, const FString& FuncName, const TArray<FString>& Params);
+
+FString GetTestDataDir();
+
 }  // namespace Test
 }  // namespace TPS
 #endif

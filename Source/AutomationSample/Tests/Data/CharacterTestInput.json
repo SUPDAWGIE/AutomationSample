@@ -1,0 +1,12311 @@
+{
+	"bindings": [
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.016666900366544724
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.11342310905456543
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.28800418972969055
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.30467098951339722
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.32133769989013672
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.33800449967384338
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.35467129945755005
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.37133818864822388
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.38800498843193054
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.40467178821563721
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.42133858799934387
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.43800538778305054
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.45469748973846436
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.47136440873146057
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.48803120851516724
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.50469809770584106
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.52136492729187012
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.53803181648254395
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.55469852685928345
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.57136541604995728
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.58803218603134155
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.60469907522201538
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.62136578559875488
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.63803261518478394
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.65469938516616821
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.67136627435684204
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.68803322315216064
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.70470011234283447
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.7213670015335083
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.7380337119102478
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.7547004222869873
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.77136707305908203
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.78803402185440063
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.80470067262649536
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.82136762142181396
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.83803451061248779
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.85470139980316162
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.8713681697845459
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.8880351185798645
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.90470188856124878
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.92136871814727783
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.93803536891937256
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.95470219850540161
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.97136902809143066
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 0.98803591728210449
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.0047026872634888
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.0213695764541626
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.0380407571792603
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.0547076463699341
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.0713746547698975
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.0880413055419922
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.104708194732666
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.1213752031326294
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.1380420923233032
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.1547087430953979
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.1713756322860718
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.1880429983139038
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.2047097682952881
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.2213766574859619
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.2380433082580566
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.2547099590301514
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.2713769674301147
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.288043737411499
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.3047106266021729
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.3213773965835571
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.3380441665649414
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.3547110557556152
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.3713778257369995
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.3880447149276733
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.49000000953674316
+				}
+			],
+			"worldTime": 1.4047113656997681
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.70349127054214478
+				}
+			],
+			"worldTime": 1.4213781356811523
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.76999998092651367
+				}
+			],
+			"worldTime": 1.4380449056625366
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.91268831491470337
+				}
+			],
+			"worldTime": 1.4547116756439209
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.49000000953674316
+				}
+			],
+			"worldTime": 1.4713784456253052
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.62999999523162842
+				}
+			],
+			"worldTime": 1.488045334815979
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.34999999403953552
+				}
+			],
+			"worldTime": 1.5047122240066528
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.14000000059604645
+				}
+			],
+			"worldTime": 1.5213789939880371
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 1.5380458831787109
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.5547127723693848
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.571379542350769
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.5880461931228638
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.6047130823135376
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.6213798522949219
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.6380466222763062
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.6547132730484009
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.6713802814483643
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.6880470514297485
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.14000000059604645
+				}
+			],
+			"worldTime": 1.7047139406204224
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.2800000011920929
+				}
+			],
+			"worldTime": 1.7213808298110962
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.7380475997924805
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.7547146081924438
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.7713814973831177
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.7880483865737915
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.8047151565551758
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.8213819265365601
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.8380488157272339
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.8547158241271973
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.871382474899292
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.8880492448806763
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.9047162532806396
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.9213831424713135
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.9380497932434082
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.954716682434082
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.9713834524154663
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 1.9880504608154297
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.0047171115875244
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.0213840007781982
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.038050651550293
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.0547173023223877
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.0713844299316406
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.0880513191223145
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.1047179698944092
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.121384859085083
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.1380515098571777
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.1547183990478516
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.1713852882385254
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.1880519390106201
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.2047185897827148
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.2213854789733887
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.2380523681640625
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.2547192573547363
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.2713861465454102
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.288053035736084
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.3047196865081787
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.3213868141174316
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.3380537033081055
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.3547203540802002
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.3713870048522949
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.3880541324615479
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.4047207832336426
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.4213876724243164
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.4380545616149902
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.454721212387085
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.4713881015777588
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.4880549907684326
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.5047218799591064
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.5213885307312012
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.538055419921875
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.5547223091125488
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.5713891983032227
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.5880558490753174
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.6047224998474121
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.6213893890380859
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.6380562782287598
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.6547231674194336
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.6713900566101074
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.6880569458007812
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.704723596572876
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.7213904857635498
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.7380571365356445
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.7547240257263184
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.7713909149169922
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.7880659103393555
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.8047325611114502
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.8213992118835449
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.8380661010742188
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.84000003337860107
+				}
+			],
+			"worldTime": 2.8547329902648926
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.14000000059604645
+				}
+			],
+			"worldTime": 2.8713998794555664
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.42000001668930054
+				}
+			],
+			"worldTime": 2.8880667686462402
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.21000000834465027
+				}
+			],
+			"worldTime": 2.9047336578369141
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.21000000834465027
+				}
+			],
+			"worldTime": 2.9214003086090088
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 2.9380671977996826
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.9547338485717773
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.9714007377624512
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 2.9880673885345459
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.0047342777252197
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.0214009284973145
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.0380678176879883
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.0547347068786621
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.0714015960693359
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.0880684852600098
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.1047353744506836
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.1214020252227783
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.138068675994873
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.1547355651855469
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.1714024543762207
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.1880691051483154
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.2047359943389893
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.2214028835296631
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.238070011138916
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.2547366619110107
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.2714035511016846
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.2880702018737793
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.3047370910644531
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.321403980255127
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.3380708694458008
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.3547375202178955
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.3714044094085693
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.3880712985992432
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.4047379493713379
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.4214046001434326
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.21000000834465027
+				}
+			],
+			"worldTime": 3.4380717277526855
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 3.4547386169433594
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.4714055061340332
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.488072395324707
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.5047392845153809
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.5214059352874756
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.5380728244781494
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.5547397136688232
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.5714066028594971
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.5880732536315918
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.6047401428222656
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.6214067935943604
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.6380736827850342
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.6547403335571289
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.6714069843292236
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.6880738735198975
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.7047405242919922
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.721407413482666
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.7380743026733398
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.7547411918640137
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.7714080810546875
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.7880749702453613
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.8047416210174561
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.8214085102081299
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.8380753993988037
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.8547422885894775
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.8714089393615723
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.888075590133667
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.9047422409057617
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.9214088916778564
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.9380757808685303
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.9547426700592041
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.9714095592498779
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 3.9880766868591309
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.0047435760498047
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.0214099884033203
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.0380768775939941
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.054743766784668
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.0714106559753418
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.0880775451660156
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.1047444343566895
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.1214108467102051
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.15652476251125336
+				}
+			],
+			"worldTime": 4.1380777359008789
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 4.1547446250915527
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 4.1714115142822266
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 4.1880779266357422
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.14000000059604645
+				}
+			],
+			"worldTime": 4.204744815826416
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.49000000953674316
+				}
+			],
+			"worldTime": 4.2214117050170898
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.49000000953674316
+				}
+			],
+			"worldTime": 4.2380785942077637
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.84000003337860107
+				}
+			],
+			"worldTime": 4.2547454833984375
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.56435805559158325
+				}
+			],
+			"worldTime": 4.2714123725891113
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.8200000524520874
+				}
+			],
+			"worldTime": 4.2880792617797852
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.5937809944152832
+				}
+			],
+			"worldTime": 4.304746150970459
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.8776726722717285
+				}
+			],
+			"worldTime": 4.3214130401611328
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 3.2966952323913574
+				}
+			],
+			"worldTime": 4.3380799293518066
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.7555910348892212
+				}
+			],
+			"worldTime": 4.3547468185424805
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.91268831491470337
+				}
+			],
+			"worldTime": 4.3714137077331543
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.3880805969238281
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.4047470092773438
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.4214138984680176
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.4380807876586914
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.4547476768493652
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.4714145660400391
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.4880814552307129
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.5047483444213867
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.14000000059604645
+				}
+			],
+			"worldTime": 4.5214152336120605
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.42579337954521179
+				}
+			],
+			"worldTime": 4.5380821228027344
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.84000003337860107
+				}
+			],
+			"worldTime": 4.5547490119934082
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.261942982673645
+				}
+			],
+			"worldTime": 4.571415901184082
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.8200000524520874
+				}
+			],
+			"worldTime": 4.5880823135375977
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.4509997367858887
+				}
+			],
+			"worldTime": 4.6047492027282715
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.6814577579498291
+				}
+			],
+			"worldTime": 4.6214160919189453
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 3.2207608222961426
+				}
+			],
+			"worldTime": 4.6380829811096191
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.5899999141693115
+				}
+			],
+			"worldTime": 4.654749870300293
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.309999942779541
+				}
+			],
+			"worldTime": 4.6714167594909668
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.8899999856948853
+				}
+			],
+			"worldTime": 4.6880836486816406
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.1920570135116577
+				}
+			],
+			"worldTime": 4.7047505378723145
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.49000000953674316
+				}
+			],
+			"worldTime": 4.7214174270629883
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 4.7380843162536621
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.7547507286071777
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.7714176177978516
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.7880845069885254
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.8047513961791992
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.821418285369873
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.8380851745605469
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.8547520637512207
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.8714189529418945
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 4.8881511688232422
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.42579337954521179
+				}
+			],
+			"worldTime": 4.9048423767089844
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.86585217714309692
+				}
+			],
+			"worldTime": 4.9215092658996582
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.277380108833313
+				}
+			],
+			"worldTime": 4.938176155090332
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.6160755157470703
+				}
+			],
+			"worldTime": 4.9548430442810059
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.6115210056304932
+				}
+			],
+			"worldTime": 4.9715099334716797
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.62999999523162842
+				}
+			],
+			"worldTime": 4.9881768226623535
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.6338769793510437
+				}
+			],
+			"worldTime": 5.0048437118530273
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.0215106010437012
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.0381770133972168
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.0548439025878906
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.0715107917785645
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.0881772041320801
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.252388596534729
+				}
+			],
+			"worldTime": 5.1048440933227539
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.35693135857582092
+				}
+			],
+			"worldTime": 5.1215109825134277
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.35693135857582092
+				}
+			],
+			"worldTime": 5.1381778717041016
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.2800000011920929
+				}
+			],
+			"worldTime": 5.1548447608947754
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.42000001668930054
+				}
+			],
+			"worldTime": 5.1715116500854492
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.42579337954521179
+				}
+			],
+			"worldTime": 5.188178539276123
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.34999999403953552
+				}
+			],
+			"worldTime": 5.2048454284667969
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 5.2215123176574707
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.2381787300109863
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.2548456192016602
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.271512508392334
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 5.2881793975830078
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.3048462867736816
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.3215126991271973
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.3381795883178711
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.3548464775085449
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.3715133666992188
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.3881802558898926
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.4048471450805664
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.4215140342712402
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.4381804466247559
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.4548473358154297
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.4715142250061035
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.4881811141967773
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.5048480033874512
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.5215144157409668
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.5381813049316406
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.5548481941223145
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.5715150833129883
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.5881819725036621
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.6048483848571777
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.6215152740478516
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.6381874084472656
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.6548542976379395
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.6715211868286133
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.6881880760192871
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.7048544883728027
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.7215213775634766
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.7381882667541504
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.7548551559448242
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.771522045135498
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.7881889343261719
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.8048558235168457
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.8215227127075195
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.8381891250610352
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.854856014251709
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.8715229034423828
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.8881897926330566
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.9048566818237305
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.9215230941772461
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.9381899833679199
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.9548568725585938
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.9715237617492676
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 5.9881906509399414
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.0048575401306152
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.0215239524841309
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.0381908416748047
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.0548577308654785
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.0715246200561523
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.0881915092468262
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.1048579216003418
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.1215248107910156
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.1381916999816895
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.1548585891723633
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.1715250015258789
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.1881918907165527
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.2048587799072266
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.2215256690979004
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.2381925582885742
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.2548589706420898
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.21000000834465027
+				}
+			],
+			"worldTime": 6.2715263366699219
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.56000000238418579
+				}
+			],
+			"worldTime": 6.2881927490234375
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.0499999523162842
+				}
+			],
+			"worldTime": 6.3048596382141113
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.1982070207595825
+				}
+			],
+			"worldTime": 6.3215265274047852
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.98249679803848267
+				}
+			],
+			"worldTime": 6.338193416595459
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.1982070207595825
+				}
+			],
+			"worldTime": 6.3548603057861328
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.62999999523162842
+				}
+			],
+			"worldTime": 6.3715271949768066
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.98249679803848267
+				}
+			],
+			"worldTime": 6.3881940841674805
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.4716657400131226
+				}
+			],
+			"worldTime": 6.4048609733581543
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.6858232021331787
+				}
+			],
+			"worldTime": 6.4215273857116699
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.4716657400131226
+				}
+			],
+			"worldTime": 6.4381942749023438
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.1711287498474121
+				}
+			],
+			"worldTime": 6.4548611640930176
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.0348219871520996
+				}
+			],
+			"worldTime": 6.4715280532836914
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.98000001907348633
+				}
+			],
+			"worldTime": 6.4881949424743652
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.77317529916763306
+				}
+			],
+			"worldTime": 6.5048618316650391
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.42579337954521179
+				}
+			],
+			"worldTime": 6.5215287208557129
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 6.5381956100463867
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.5548620223999023
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.5715289115905762
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.58819580078125
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.6048626899719238
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.6215295791625977
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.21000000834465027
+				}
+			],
+			"worldTime": 6.6381959915161133
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.6548628807067871
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.6715297698974609
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.6881961822509766
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.7048630714416504
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.7215299606323242
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.738196849822998
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.7548637390136719
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.42579337954521179
+				}
+			],
+			"worldTime": 6.7715306282043457
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.2599999904632568
+				}
+			],
+			"worldTime": 6.7881970405578613
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.84000003337860107
+				}
+			],
+			"worldTime": 6.8048639297485352
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.821530818939209
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.1200000047683716
+				}
+			],
+			"worldTime": 6.8381977081298828
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.5355079174041748
+				}
+			],
+			"worldTime": 6.8548645973205566
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.3195257186889648
+				}
+			],
+			"worldTime": 6.8715310096740723
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.1920570135116577
+				}
+			],
+			"worldTime": 6.8881978988647461
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 6.9048647880554199
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.9215316772460938
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.9381980895996094
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.9548649787902832
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 6.971531867980957
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 6.9881982803344727
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.0048651695251465
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.0215320587158203
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.0381989479064941
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.054865837097168
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.0715327262878418
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.0881996154785156
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.1048660278320312
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.1215329170227051
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.1381998062133789
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.1548666954040527
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.070000000298023224
+				}
+			],
+			"worldTime": 7.1715335845947266
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.1882004737854004
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.2048673629760742
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.2215337753295898
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.2382006645202637
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.2548675537109375
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.2715344429016113
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.2882013320922852
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.3048677444458008
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.3215346336364746
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.3382015228271484
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.3548684120178223
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.3715353012084961
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.1982070207595825
+				}
+			],
+			"worldTime": 7.3882021903991699
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.6814577579498291
+				}
+			],
+			"worldTime": 7.4048690795898438
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.3300000429153442
+				}
+			],
+			"worldTime": 7.4215359687805176
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.5899999141693115
+				}
+			],
+			"worldTime": 7.4382028579711914
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.2400000095367432
+				}
+			],
+			"worldTime": 7.4548697471618652
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 2.5209720134735107
+				}
+			],
+			"worldTime": 7.4715366363525391
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.4700000286102295
+				}
+			],
+			"worldTime": 7.4882035255432129
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.0499999523162842
+				}
+			],
+			"worldTime": 7.5048704147338867
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.34999999403953552
+				}
+			],
+			"worldTime": 7.5215373039245605
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.5382041931152344
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.55487060546875
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.5715374946594238
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.5882043838500977
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.6048712730407715
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.6215381622314453
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.6382050514221191
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.654871940612793
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.6715388298034668
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.6882057189941406
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.7048726081848145
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.7215394973754883
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.7382063865661621
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.252388596534729
+				}
+			],
+			"worldTime": 7.7548732757568359
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.66407829523086548
+				}
+			],
+			"worldTime": 7.7715396881103516
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.50960767269134521
+				}
+			],
+			"worldTime": 7.7882065773010254
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.1287161111831665
+				}
+			],
+			"worldTime": 7.8048734664916992
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 1.1287161111831665
+				}
+			],
+			"worldTime": 7.821540355682373
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.6338769793510437
+				}
+			],
+			"worldTime": 7.8382072448730469
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.35693135857582092
+				}
+			],
+			"worldTime": 7.8548741340637207
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0.14000000059604645
+				}
+			],
+			"worldTime": 7.8715405464172363
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.8882074356079102
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.904874324798584
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.9215412139892578
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.9382076263427734
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.9548745155334473
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.9715414047241211
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 7.9882082939147949
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.0048751831054688
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.0215415954589844
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.0382089614868164
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.054875373840332
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.0715427398681641
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.0882091522216797
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.1048765182495117
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.1215429306030273
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.1382102966308594
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.154876708984375
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.171544075012207
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.1882104873657227
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.2048768997192383
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.2215442657470703
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.2382106781005859
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.254878044128418
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.2715444564819336
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.2882108688354492
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.3048782348632812
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 1
+				},
+				{
+					"name": "IA_Jump",
+					"value": 1
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.3215446472167969
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.3382120132446289
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.3548784255981445
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.3715457916259766
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.3882122039794922
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.4048795700073242
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.4215459823608398
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.4382123947143555
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.4548797607421875
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.4715461730957031
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.4882135391235352
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.5048799514770508
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.5215463638305664
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.5382137298583984
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.5548801422119141
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.5715475082397461
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.5882139205932617
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.6048803329467773
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.6215476989746094
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.638214111328125
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.654881477355957
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.6715478897094727
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.6882143020629883
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.7048816680908203
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.7215480804443359
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.738215446472168
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.7548818588256836
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.7715482711791992
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.7882156372070312
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.8048820495605469
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.8215494155883789
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.8382158279418945
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.8548831939697266
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.8715496063232422
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.8882169723510742
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.9048833847045898
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.9215507507324219
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.9382171630859375
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.9548835754394531
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.9715509414672852
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 8.9882173538208008
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.0048837661743164
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.0215511322021484
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.0382175445556641
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.0548849105834961
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.0715513229370117
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.0882186889648438
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.1048851013183594
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.1215524673461914
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.138218879699707
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.1548852920532227
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.1715526580810547
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.1882190704345703
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.2048854827880859
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.221552848815918
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.2382192611694336
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.2548866271972656
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.2715530395507812
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.2882194519042969
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.3048868179321289
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.3215532302856445
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.3382196426391602
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.3548870086669922
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.3715534210205078
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.3882207870483398
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.4048871994018555
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.4215545654296875
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.4382209777832031
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.4548883438110352
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.4715547561645508
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.4882221221923828
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.5048885345458984
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.5215559005737305
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.5382223129272461
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.5548896789550781
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.5715560913085938
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 1
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.5882234573364258
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.6048898696899414
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.621556282043457
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.6382236480712891
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.6548900604248047
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.6715564727783203
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.6882238388061523
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.704890251159668
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.7215576171875
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.7382240295410156
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.7548904418945312
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.7715587615966797
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.7882251739501953
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.8048925399780273
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.821558952331543
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.8382253646850586
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.8548927307128906
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.8715591430664062
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.8882265090942383
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.9048929214477539
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.9215593338012695
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.9382266998291016
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.9548931121826172
+		},
+		{
+			"axisValues": [
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Jump",
+					"value": 0
+				},
+				{
+					"name": "IA_Move",
+					"value": 0
+				},
+				{
+					"name": "IA_Look",
+					"value": 0
+				}
+			],
+			"worldTime": 9.9715604782104492
+		}
+	],
+	"initialTransform":
+	{
+		"rotation":
+		{
+			"x": 0,
+			"y": 0,
+			"z": 0,
+			"w": 1
+		},
+		"translation":
+		{
+			"x": 0,
+			"y": 0,
+			"z": 142.15000200271606
+		},
+		"scale3D":
+		{
+			"x": 1,
+			"y": 1,
+			"z": 1
+		}
+	}
+}
