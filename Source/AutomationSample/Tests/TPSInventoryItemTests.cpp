@@ -172,7 +172,7 @@ bool FInventoryDataShouldBeSetupCorrectly::RunTest(const FString& Parameters)
 
 bool FInventoryCanBeTaken::RunTest(const FString& Parameters)
 {
-    LevelScope(TEXT("Game/AutomationSample/Tests/EmptyTestLevel"));
+    const auto Level = LevelScope(TEXT("/Game/AutomationSample/Tests/EmptyTestLevel"));
 
     UWorld* World = AutomationCommon::GetAnyGameWorld();
     if (!TestNotNull("World could be created", World))
@@ -226,7 +226,7 @@ bool FInventoryCanBeTaken::RunTest(const FString& Parameters)
 
     TArray<AActor*> InventoryItems;
 
-    UGameplayStatics::GetAllActorsOfClass(World, ATPSInventoryItem::StaticClass(), InventoryItems);
+    UGameplayStatics::GetAllActorsOfClass(Character->GetWorld(), ATPSInventoryItem::StaticClass(), InventoryItems);
     TestTrueExpr(InventoryItems.Num() == 0);
 
     return true;
@@ -234,7 +234,7 @@ bool FInventoryCanBeTaken::RunTest(const FString& Parameters)
 
 bool FEveryInventoryItemExists::RunTest(const FString& Parameters)
 {
-    LevelScope(TEXT("Game/AutomationSample/Tests/EmptyTestLevel"));
+    const auto Level = LevelScope(TEXT("/Game/AutomationSample/Tests/EmptyTestLevel"));
 
     UWorld* World = AutomationCommon::GetAnyGameWorld();
     if (!TestNotNull("World could be created", World))

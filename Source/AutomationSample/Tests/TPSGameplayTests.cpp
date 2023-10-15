@@ -187,6 +187,8 @@ bool FAllItemsCanBeTakenOnMovement::RunTest(const FString& Parameters)
     ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
     ADD_LATENT_AUTOMATION_COMMAND(FJumpLatentCommand(Character));
     ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
+    ADD_LATENT_AUTOMATION_COMMAND(
+        FTPSUntilLatentCommand([this, Character]() { ExecuteInputAction(Character, "IA_Move", 1.0f); }, []() {}, 2.5f));
     ADD_LATENT_AUTOMATION_COMMAND(FDelayedFunctionLatentCommand(
         [this, Character]()
         {
@@ -245,7 +247,7 @@ private:
 };
 bool FAllItemsCanBeTakenOnRecordedMovement::RunTest(const FString& Parameters)
 {
-    const auto Level = LevelScope(TEXT("/Game/AutomationSample/Tests/InventoryTestLevel3"));
+    const auto Level = LevelScope(TEXT("/Game/AutomationSample/Tests/InventoryTestLevel4"));
 
     UWorld* World = AutomationCommon::GetAnyGameWorld();
     if (!TestNotNull("World could be created", World))
