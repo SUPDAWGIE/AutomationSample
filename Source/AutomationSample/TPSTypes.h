@@ -12,6 +12,28 @@ enum class EInventoryItemType : uint8
     CONE,
 };
 
+UCLASS()
+class USupLocalizationFunctionLibrary : public UBlueprintFunctionLibrary
+{
+    GENERATED_BODY()
+
+public:
+    UFUNCTION(BlueprintCallable)
+    static FText GetInventoryItemText(EInventoryItemType Type)
+    {
+        switch (Type)
+        {
+            case EInventoryItemType::SPHERE: return NSLOCTEXT("Inventory", "Sphere_Loc", "SPHERE");
+            case EInventoryItemType::CUBE: return NSLOCTEXT("Inventory", "Cube_Loc", "CUBE");
+            case EInventoryItemType::CYLINDER: return NSLOCTEXT("Inventory", "Cylinder_Loc", "CYLINDER");
+            case EInventoryItemType::CONE: return NSLOCTEXT("Inventory", "Cone_Loc", "CONE");
+        }
+
+        checkNoEntry();
+        return FText::GetEmpty();
+    }
+};
+
 USTRUCT(BlueprintType)
 struct FInventoryData
 {

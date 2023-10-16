@@ -2,6 +2,11 @@
 
 #include "AutomationSample/Tests/TestUtils.h"
 #include "Misc/OutputDeviceNull.h"
+#include "EnhancedInputComponent.h"
+#include "EnhancedPlayerInput.h"
+#include "InputModifiers.h"
+#include "Blueprint/WidgetBlueprintLibrary.h"
+#include "Blueprint/WidgetTree.h"
 
 namespace TPS
 {
@@ -45,6 +50,53 @@ FString GetTestDataDir()
 {
     return FPaths::GameSourceDir().Append("AutomationSample/Tests/Data/");
 }
+
+UWidget* FindWidgetByName(const UUserWidget* ParentWidget, const FName& Name)
+{
+    if (!ParentWidget || !ParentWidget->WidgetTree)
+    {
+        return nullptr;
+    }
+    TArray<UWidget*> Widgets;
+    ParentWidget->WidgetTree->GetAllWidgets(Widgets);
+    for (const auto& WidgetItem : Widgets)
+    {
+        if (WidgetItem->GetFName() == Name)
+        {
+            return WidgetItem;
+        }
+    }
+    return nullptr;
+}
+
+void ExecuteInputAction(const APlayerController* PC, const FString& Command, const float& Value, const TArray<UInputModifier*>& Modifiers)
+{
+    if (!PC)
+    {
+        return;
+    }
+    const UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PC->InputComponent);
+    if (!EnhancedInputComponent)
+    {
+        return;
+    }
+
+    UEnhancedPlayerInput* EnhancedInput = Cast<UEnhancedPlayerInput>(PC->PlayerInput);
+    if (!EnhancedInput)
+    {
+        return;
+    }
+
+    for (auto& ActionEventBinding : EnhancedInputComponent->GetActionEventBindings())
+    {
+        if (ActionEventBinding->GetAction()->GetName() == Command)
+        {
+            EnhancedInput->InjectInputForAction(ActionEventBinding->GetAction(), Value, Modifiers);
+            break;
+        }
+    }
+}
+
 }  // namespace Test
 }  // namespace TPS
 

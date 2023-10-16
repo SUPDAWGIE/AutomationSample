@@ -1,9 +1,13 @@
 ﻿#pragma once
-#include "Tests/AutomationCommon.h"
+#include "Blueprint/WidgetBlueprintLibrary.h"
 
 #if WITH_AUTOMATION_TESTS
 
 #include "CoreMinimal.h"
+#include "Tests/AutomationCommon.h"
+
+class UWidget;
+class UInputModifier;
 
 namespace TPS
 {
@@ -70,6 +74,19 @@ private:
 void CallFuncByNameWithParams(UObject* Object, const FString& FuncName, const TArray<FString>& Params);
 
 FString GetTestDataDir();
+
+UWidget* FindWidgetByName(const UUserWidget* ParentWidget, const FName& Name);
+
+template <class T>
+T* FindWidgetByClass()
+{
+    TArray<UUserWidget*> Widgets;
+    UWidgetBlueprintLibrary::GetAllWidgetsOfClass(AutomationCommon::GetAnyGameWorld(), Widgets, T::StaticClass(), false);
+    return Widgets.Num() != 0 ? Cast<T>(Widgets[0]) : nullptr;
+}
+
+void ExecuteInputAction(
+    const APlayerController* PC, const FString& Command, const float& Value, const TArray<UInputModifier*>& Modifiers = {});
 
 }  // namespace Test
 }  // namespace TPS

@@ -49,7 +49,7 @@ void USupGameSetting::ApplyNextOption()
         UE_LOG(LogSupGameSetting, Error, TEXT("Failed to get current index"));
         return;
     }
-    const int32 NextIndex = FMath::Clamp(CurrentIndex + 1, 0, Options.Num() - 1);
+    const int32 NextIndex = (CurrentIndex + 1) % Options.Num();
     SetCurrentValue(NextIndex);
 }
 
@@ -61,7 +61,7 @@ void USupGameSetting::ApplyPreviousOption()
         UE_LOG(LogSupGameSetting, Error, TEXT("Failed to get current index"));
         return;
     }
-    const int32 PreviousIndex = FMath::Clamp(CurrentIndex - 1, 0, Options.Num() - 1);
+    const int32 PreviousIndex = CurrentIndex == 0 ? Options.Num() - 1 : CurrentIndex - 1;
     SetCurrentValue(PreviousIndex);
 }
 

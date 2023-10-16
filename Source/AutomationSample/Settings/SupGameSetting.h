@@ -6,13 +6,9 @@
 #include "UObject/Object.h"
 #include "SupGameSetting.generated.h"
 
-USTRUCT()
 struct FSettingOption
 {
-    GENERATED_BODY()
-
     FText Name;
-
     int32 Value;
 };
 
