@@ -1,6 +1,5 @@
 // My game copyright
 
-#include "EnhancedInputSubsystems.h"
 #if WITH_AUTOMATION_TESTS
 
 #include "AutomationSample/Tests/TPSGameplayTests.h"
@@ -14,6 +13,7 @@
 #include "EnhancedInputComponent.h"
 #include "Utils/SupInputRecordingUtils.h"
 #include "Utils/SupJsonUtils.h"
+#include "EnhancedInputSubsystems.h"
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FInventoryItemCanBeTakenOnJump, "AutomationSample.Gameplay.InventoryItemCanBeTakenOnJump",
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
@@ -25,7 +25,10 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(FInventoryItemCantBeTakenOnJumpIfTooHigh,
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FAllItemsCanBeTakenOnMovement, "AutomationSample.Gameplay.AllItemsCanBeTakenOnMovement",
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
 
-IMPLEMENT_SIMPLE_AUTOMATION_TEST(FAllItemsCanBeTakenOnRecordedMovement, "AutomationSample.Gameplay.AllItemsCanBeTakenOnRecordedMovement",
+IMPLEMENT_COMPLEX_AUTOMATION_TEST(FAllItemsCanBeTakenOnRecordedMovement, "AutomationSample.Gameplay.AllItemsCanBeTakenOnRecordedMovement",
+    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
+
+IMPLEMENT_COMPLEX_AUTOMATION_TEST(FMapsShouldBeLoaded, "AutomationSample.Gameplay.MapsShouldBeLoaded",
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
 
 using namespace TPS::Test;
@@ -245,9 +248,34 @@ private:
     int32 Index{0};
     float WorldStartTime{0.0f};
 };
+
+void FAllItemsCanBeTakenOnRecordedMovement::GetTests(TArray<FString>& OutBeautifiedNames, TArray<FString>& OutTestCommands) const
+{
+    struct FTestData
+    {
+        FString TestName;
+        FString MapPath;
+        FString JsonPath;
+    };
+
+    const TArray<FTestData> TestData =  //
+        {
+            {"InventoryTestLevel4", "/Game/AutomationSample/Tests/InventoryTestLevel4", "CharacterTestInput_InventoryTestLevel4.json"},
+            {"GameplayTestLevel", "/Game/AutomationSample/Tests/GameplayTestLevel", "CharacterTestInput_GameplayTestLevel.json"},
+        };
+
+    for (const auto& OneTestData : TestData)
+    {
+        OutBeautifiedNames.Add(OneTestData.TestName);
+        OutTestCommands.Add(OneTestData.MapPath + "," + OneTestData.JsonPath);
+    }
+}
+
 bool FAllItemsCanBeTakenOnRecordedMovement::RunTest(const FString& Parameters)
 {
-    const auto Level = LevelScope(TEXT("/Game/AutomationSample/Tests/InventoryTestLevel4"));
+    TArray<FString> ParsedParams;
+    Parameters.ParseIntoArray(ParsedParams, TEXT(","), true);
+    const auto Level = LevelScope(ParsedParams[0]);
 
     UWorld* World = AutomationCommon::GetAnyGameWorld();
     if (!TestNotNull("World could be created", World))
@@ -269,7 +297,7 @@ bool FAllItemsCanBeTakenOnRecordedMovement::RunTest(const FString& Parameters)
         return false;
     }
 
-    const FString InputDataFileName = GetTestDataDir().Append("CharacterTestInput.json");
+    const FString InputDataFileName = GetTestDataDir().Append(ParsedParams[1]);
     FInputData InputData;
     if (!JsonUtils::ReadInputData(InputDataFileName, InputData))
     {
@@ -304,4 +332,27 @@ bool FAllItemsCanBeTakenOnRecordedMovement::RunTest(const FString& Parameters)
 
     return true;
 }
+
+void FMapsShouldBeLoaded::GetTests(TArray<FString>& OutBeautifiedNames, TArray<FString>& OutTestCommands) const
+{
+    const TArray<TTuple<FString, FString>> Data =  //
+        {
+            {"MainMap", "/Game/ThirdPerson/Maps/ThirdPersonMap"},
+            {"GameplayTestMap", "/Game/AutomationSample/Tests/GameplayTestLevel"},
+        };
+
+    for (const auto OneTestData : Data)
+    {
+        OutBeautifiedNames.Add(OneTestData.Get<0>());
+        OutTestCommands.Add(OneTestData.Get<1>());
+    }
+}
+
+bool FMapsShouldBeLoaded::RunTest(const FString& Parameters)
+{
+    const auto Level = LevelScope(Parameters);
+    ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(2.0f));
+    return true;
+}
+
 #endif

@@ -100,6 +100,15 @@ bool FBlueprintShouldBeSetupCorrectly::RunTest(const FString& Parameters)
     }
     ENUM_LOOP_END
 
+    // Same but lambda
+    // ForEach<ECollisionChannel>([&, SphereComponent](const ECollisionChannel& EElement)
+    //    {
+    //        if (EElement != ECollisionChannel::ECC_OverlapAll_Deprecated)
+    //        {
+    //            TestTrueExpr(SphereComponent->GetCollisionResponseToChannel(EElement) == ECollisionResponse::ECR_Overlap);
+    //        }
+    //    });
+
     const UTextRenderComponent* TextRenderComponent = InventoryItem->FindComponentByClass<UTextRenderComponent>();
     if (!TestNotNull("Text Render Component could be found", TextRenderComponent))
     {

@@ -17,19 +17,21 @@ struct TestPayload
     float Tolerance = KINDA_SMALL_NUMBER;
 };
 
+#define ENUM_LOOP_START(TYPE, EnumElem)                                        \
+    for (int32 index = 0; index < StaticEnum<TYPE>()->NumEnums() - 1; ++index) \
+    {                                                                          \
+        const auto EnumElem = static_cast<TYPE>(StaticEnum<TYPE>()->GetValueByIndex(index));
+#define ENUM_LOOP_END }
+
 template <typename EnumType, typename FunctionType>
 void ForEach(FunctionType&& Function)
 {
     const UEnum* Enum = StaticEnum<EnumType>();
     for (int32 i = 0; i < Enum->NumEnums(); ++i)
-        Function(static_cast<EnumType>(Enum->GetValueByIndex(i)), Enum->GetNameByIndex(i));
+    {
+        Function(static_cast<EnumType>(Enum->GetValueByIndex(i)));
+    }
 }
-
-#define ENUM_LOOP_START(TYPE, EnumElem)                                        \
-    for (int32 index = 0; index < StaticEnum<TYPE>()->NumEnums() - 1; ++index) \
-    {                                                                          \
-        const auto EnumElem = static_cast<TYPE>(index);
-#define ENUM_LOOP_END }
 
 template <typename T>
 T* CreateBlueprint(UWorld* World, const FString& Name, const FTransform Transform = FTransform::Identity)
