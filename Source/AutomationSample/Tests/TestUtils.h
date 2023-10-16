@@ -88,6 +88,44 @@ T* FindWidgetByClass()
 void ExecuteInputAction(
     const APlayerController* PC, const FString& Command, const float& Value, const TArray<UInputModifier*>& Modifiers = {});
 
+class FTakeScreenshotLatentCommand : public IAutomationLatentCommand
+{
+public:
+    FTakeScreenshotLatentCommand(const FString& InScreenshotName);
+
+    virtual ~FTakeScreenshotLatentCommand() override;
+
+protected:
+    const FString ScreenshotName;
+    bool bScreenshotRequested{false};
+    bool bScreenshotTaken{false};
+
+    virtual void OnScreenshotTakenAndCompared();
+};
+
+class FTakeGameScreenshotLatentCommand : public FTakeScreenshotLatentCommand
+{
+public:
+    FTakeGameScreenshotLatentCommand(const FString& InScreenshotName);
+
+    virtual bool Update() override;
+};
+
+class FTakeUIScreenshotLatentCommand : public FTakeScreenshotLatentCommand
+{
+public:
+    FTakeUIScreenshotLatentCommand(const FString& InScreenshotName);
+
+    virtual bool Update() override;
+
+private:
+    bool bScreenshotSetupDone{false};
+
+    virtual void OnScreenshotTakenAndCompared() override;
+
+    void SetBufferVisualization(const FName& VisualizeBuffer);
+};
+
 }  // namespace Test
 }  // namespace TPS
 #endif

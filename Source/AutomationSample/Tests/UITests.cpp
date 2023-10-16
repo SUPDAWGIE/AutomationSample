@@ -1,22 +1,19 @@
 // My game copyright
 
-#include "Components/VerticalBox.h"
-#include "Settings/SupGameSetting.h"
-#include "Settings/SupGameUserSettings.h"
-#include "UI/PauseMenu/SettingOptionWidget.h"
 #if WITH_AUTOMATION_TESTS
 
 #include "AutomationSample/Tests/UITests.h"
 #include "CoreMinimal.h"
 #include "Misc/AutomationTest.h"
 #include "TestUtils.h"
-#include "EnhancedInputComponent.h"
-#include "EnhancedPlayerInput.h"
-#include "Blueprint/WidgetBlueprintLibrary.h"
 #include "Blueprint/WidgetTree.h"
 #include "Components/Button.h"
 #include "UI/PauseMenu/PauseMenuWidget.h"
 #include "UI/PauseMenu/VideoSettingsWidget.h"
+#include "Components/VerticalBox.h"
+#include "Settings/SupGameSetting.h"
+#include "Settings/SupGameUserSettings.h"
+#include "UI/PauseMenu/SettingOptionWidget.h"
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FPauseMenuShouldBeVisibleOnGamePaused, "AutomationSample.UITests.PauseMenuShouldBeVisibleOnGamePaused",
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);

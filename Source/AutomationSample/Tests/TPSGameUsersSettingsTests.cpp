@@ -1,12 +1,12 @@
 // My game copyright
 
-#include "Settings/SupGameUserSettings.h"
 #if WITH_AUTOMATION_TESTS
 
 #include "AutomationSample/Tests/TPSGameUsersSettingsTests.h"
 #include "CoreMinimal.h"
 #include "Misc/AutomationTest.h"
 #include "TestUtils.h"
+#include "Settings/SupGameUserSettings.h"
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSettingsShouldExist, "AutomationSample.GameUserSettings.SettingsShouldExist",
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);

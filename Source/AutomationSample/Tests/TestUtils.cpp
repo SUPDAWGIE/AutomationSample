@@ -1,4 +1,7 @@
-﻿#if WITH_AUTOMATION_TESTS
+﻿#include "AutomationBlueprintFunctionLibrary.h"
+#include "AutomationScreenshotOptions.h"
+#include "BufferVisualizationData.h"
+#if WITH_AUTOMATION_TESTS
 
 #include "AutomationSample/Tests/TestUtils.h"
 #include "Misc/OutputDeviceNull.h"
@@ -93,6 +96,85 @@ void ExecuteInputAction(const APlayerController* PC, const FString& Command, con
         {
             EnhancedInput->InjectInputForAction(ActionEventBinding->GetAction(), Value, Modifiers);
             break;
+        }
+    }
+}
+
+FTakeScreenshotLatentCommand::FTakeScreenshotLatentCommand(const FString& InScreenshotName) : ScreenshotName(InScreenshotName)
+{
+    FAutomationTestFramework::Get().OnScreenshotTakenAndCompared.AddRaw(this, &FTakeScreenshotLatentCommand::OnScreenshotTakenAndCompared);
+}
+
+FTakeScreenshotLatentCommand::~FTakeScreenshotLatentCommand()
+{
+    FAutomationTestFramework::Get().OnScreenshotTakenAndCompared.RemoveAll(this);
+}
+
+void FTakeScreenshotLatentCommand::OnScreenshotTakenAndCompared()
+{
+    bScreenshotTaken = true;
+}
+
+FTakeGameScreenshotLatentCommand::FTakeGameScreenshotLatentCommand(const FString& InScreenshotName)
+    : FTakeScreenshotLatentCommand(InScreenshotName)
+{
+}
+
+bool FTakeGameScreenshotLatentCommand::Update()
+{
+    if (!bScreenshotRequested)
+    {
+        const FAutomationScreenshotOptions Options = UAutomationBlueprintFunctionLibrary::GetDefaultScreenshotOptionsForRendering();
+        UAutomationBlueprintFunctionLibrary::TakeAutomationScreenshotInternal(
+            AutomationCommon::GetAnyGameWorld(), ScreenshotName, FString{}, Options);
+        bScreenshotRequested = true;
+    }
+    return bScreenshotTaken;
+}
+
+FTakeUIScreenshotLatentCommand::FTakeUIScreenshotLatentCommand(const FString& InScreenshotName)
+    : FTakeScreenshotLatentCommand(InScreenshotName)
+{
+}
+
+bool FTakeUIScreenshotLatentCommand::Update()
+{
+    if (!bScreenshotSetupDone)
+    {
+        bScreenshotSetupDone = true;
+        SetBufferVisualization("Opacity");
+        return false;
+    }
+    if (!bScreenshotRequested)
+    {
+        const FAutomationScreenshotOptions Options = UAutomationBlueprintFunctionLibrary::GetDefaultScreenshotOptionsForRendering();
+        UAutomationBlueprintFunctionLibrary::TakeAutomationScreenshotOfUI_Immediate(
+            AutomationCommon::GetAnyGameWorld(), ScreenshotName, Options);
+        bScreenshotRequested = true;
+    }
+    return bScreenshotTaken;
+}
+
+void FTakeUIScreenshotLatentCommand::OnScreenshotTakenAndCompared()
+{
+    FTakeScreenshotLatentCommand::OnScreenshotTakenAndCompared();
+    SetBufferVisualization(NAME_None);
+}
+
+void FTakeUIScreenshotLatentCommand::SetBufferVisualization(const FName& VisualizeBuffer)
+{
+    if (UGameViewportClient* ViewportClient = AutomationCommon::GetAnyGameViewportClient())
+    {
+        static IConsoleVariable* ICVar =
+            IConsoleManager::Get().FindConsoleVariable(FBufferVisualizationData::GetVisualizationTargetConsoleCommandName());
+        if (ICVar)
+        {
+            if (ViewportClient->GetEngineShowFlags())
+            {
+                ViewportClient->GetEngineShowFlags()->SetVisualizeBuffer(!VisualizeBuffer.IsNone());
+                ViewportClient->GetEngineShowFlags()->SetTonemapper(VisualizeBuffer.IsNone());
+                ICVar->Set(VisualizeBuffer.IsNone() ? TEXT("") : *VisualizeBuffer.ToString());
+            }
         }
     }
 }
