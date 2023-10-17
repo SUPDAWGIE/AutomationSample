@@ -1,14 +1,13 @@
-﻿#include "AutomationBlueprintFunctionLibrary.h"
-#include "AutomationScreenshotOptions.h"
-#include "BufferVisualizationData.h"
-#if WITH_AUTOMATION_TESTS
+﻿#if WITH_AUTOMATION_TESTS
 
 #include "AutomationSample/Tests/TestUtils.h"
 #include "Misc/OutputDeviceNull.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedPlayerInput.h"
 #include "InputModifiers.h"
-#include "Blueprint/WidgetBlueprintLibrary.h"
+#include "AutomationBlueprintFunctionLibrary.h"
+#include "AutomationScreenshotOptions.h"
+#include "BufferVisualizationData.h"
 #include "Blueprint/WidgetTree.h"
 
 namespace TPS

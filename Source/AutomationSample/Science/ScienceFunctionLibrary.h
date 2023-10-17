@@ -14,4 +14,13 @@ class AUTOMATIONSAMPLE_API UScienceFunctionLibrary : public UBlueprintFunctionLi
 public:
     UFUNCTION(BlueprintPure, Category = "Science")
     static int32 Fibonacci(int32 N);
+
+    /**
+     *  Factorial function
+     *
+     * @param   N   Input value
+     * @return  Factorial of N
+     */
+    UFUNCTION(BlueprintPure, Category = "Science")
+    static int32 Factorial(int32 N);
 };

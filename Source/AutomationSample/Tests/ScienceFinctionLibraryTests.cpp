@@ -17,6 +17,9 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(FFibonacciStress, "AutomationSample.Science.Fib
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FFibonacciLogHasErrors, "AutomationSample.Science.Fibonacci.LogHasErrors",
     EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
 
+DEFINE_SPEC(FFactorial, "AutomationSample.Science.Factorial",
+    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
+
 bool FFibonacciSimple::RunTest(const FString& Parameters)
 {
     AddInfo("This test checks that UScienceFunctionLibrary::Fibonacci returns the correct value for a given input");
@@ -57,6 +60,32 @@ bool FFibonacciLogHasErrors::RunTest(const FString& Parameters)
     AddExpectedError("Invalid input for Fibonacci", EAutomationExpectedErrorFlags::Contains);
     UScienceFunctionLibrary::Fibonacci(-1);
     return true;
+}
+
+void FFactorial::Define()
+{
+    Describe("Corner cases",
+        [this]
+        {
+            It("Factorial of 0 should be 1", [this] { TestEqual("Factorial of 0 should be 1", UScienceFunctionLibrary::Factorial(0), 1); });
+            It("Factorial of 1 should be 1", [this] { TestEqual("Factorial of 1 should be 1", UScienceFunctionLibrary::Factorial(1), 1); });
+        });
+
+    Describe("Normal cases",
+        [this]
+        {
+            const TArray<TPS::Test::TestPayload<int32, int32>> TestData{
+                {2, 2}, {3, 6}, {4, 24}, {5, 120}, {6, 720}, {7, 5040}, {8, 40320}, {9, 362880}};
+            for (const auto& Test : TestData)
+            {
+                It(FString::Printf(TEXT("Factorial of %i should be %i"), Test.TestValue, Test.ExpectedValue),
+                    [this, Test]
+                    {
+                        TestEqual(FString::Printf(TEXT("Factorial of %i should be %i"), Test.TestValue, Test.ExpectedValue),
+                            UScienceFunctionLibrary::Factorial(Test.TestValue), Test.ExpectedValue);
+                    });
+            }
+        });
 }
 
 #endif  // WITH_DEV_AUTOMATION_TESTS || WITH_PERF_AUTOMATION_TESTS
