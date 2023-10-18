@@ -133,6 +133,7 @@ bool FSettingCanBeApplied::RunTest(const FString& Parameters)
     TestTrueExpr(GlobalIlluminationQualityAfter == VideoSettings[2]->GetCurrentOption().Value);
 
     GameUserSettings->SetGlobalIlluminationQuality(GlobalIlluminationQualityBefore);
+    GameUserSettings->ApplySettings(false);
 
     return true;
 }
