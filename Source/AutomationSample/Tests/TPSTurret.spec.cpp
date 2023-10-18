@@ -137,15 +137,18 @@ void FTurret::Define()
             LatentIt(TestName, EAsyncExecution::ThreadPool,
                 [this, InitialAmmoCount, FireFrequency](const FDoneDelegate& TestDone)
                 {
-                    GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("Test"));
                     AsyncTask(ENamedThreads::GameThread,
                         [&]()
                         {
                             const int32 AmmoCountFromBP = GetPropertyValueByName<ATPSTurret, int32>(Turret, "AmmoCount");
                             TestTrueExpr(AmmoCountFromBP == InitialAmmoCount);
+
+                            const FTimerHandle FireTimerHandle =
+                                GetPropertyValueByName<ATPSTurret, FTimerHandle>(Turret, "FireTimerHandle");
+                            TestTrueExpr(World->GetTimerManager().IsTimerActive(FireTimerHandle));
                         });
 
-                    const float WaitTime = InitialAmmoCount * FireFrequency + 1.0f;
+                    const float WaitTime = InitialAmmoCount * FireFrequency + 3.0f;
                     FPlatformProcess::Sleep(WaitTime);
 
                     AsyncTask(ENamedThreads::GameThread,
@@ -153,16 +156,15 @@ void FTurret::Define()
                         {
                             const int32 AmmoCountFromBP = GetPropertyValueByName<ATPSTurret, int32>(Turret, "AmmoCount");
                             TestTrueExpr(AmmoCountFromBP == 0);
+
+                            const FTimerHandle FireTimerHandle =
+                                GetPropertyValueByName<ATPSTurret, FTimerHandle>(Turret, "FireTimerHandle");
+                            TestTrueExpr(!World->GetTimerManager().IsTimerActive(FireTimerHandle));
                         });
 
                     TestDone.Execute();
                 });
-            LatentAfterEach(
-                [this](const FDoneDelegate& TestDone)
-                {
-                    SpecCloseLevel(World);
-                    TestDone.Execute();
-                });
+            AfterEach([this]() { SpecCloseLevel(World); });
         });
 }
 

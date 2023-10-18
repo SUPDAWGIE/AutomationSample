@@ -39,6 +39,7 @@ protected:
     TSubclassOf<ATPSProjectile> ProjectileClass;
 
 private:
+    UPROPERTY()
     FTimerHandle FireTimerHandle;
 
     void OnFire();
