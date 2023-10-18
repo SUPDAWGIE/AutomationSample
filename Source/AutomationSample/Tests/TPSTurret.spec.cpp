@@ -27,7 +27,7 @@ void SpecCloseLevel(const UWorld* World)
 {
     if (APlayerController* PC = World->GetFirstPlayerController())
     {
-        PC->ConsoleCommand("Exit", true);
+        PC->ConsoleCommand("Quit", false);
     }
 }
 
