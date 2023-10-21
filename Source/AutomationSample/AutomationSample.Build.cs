@@ -9,8 +9,8 @@ public class AutomationSample : ModuleRules
         PrivateDependencyModuleNames.AddRange(new string[] { "AITestSuite" });
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(
-            new[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Json", "JsonUtilities", "UMG", "FunctionalTesting" });
+        PublicDependencyModuleNames.AddRange(new[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Json", "JsonUtilities",
+            "UMG", "FunctionalTesting", "SlateCore" });
 
         PublicIncludePaths.Add("AutomationSample");
     }

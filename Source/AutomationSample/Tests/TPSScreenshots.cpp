@@ -53,6 +53,13 @@ bool FRenderingShouldBeCorrect::RunTest(const FString& Parameters)
 
     PC->SetViewTarget(Camera);
 
+    SWindow* Window = PC->GetLocalPlayer()->ViewportClient->GetWindow().Get();
+    if (!TestNotNull("Window", Window))
+    {
+        return false;
+    }
+    Window->Resize(FVector2D(1280.0f, 720.0f));
+
     ADD_LATENT_AUTOMATION_COMMAND(FTakeGameScreenshotLatentCommand("rendering_check_screenshot"));
     return true;
 }
@@ -60,6 +67,25 @@ bool FRenderingShouldBeCorrect::RunTest(const FString& Parameters)
 bool FMainPlayerHudShouldBeRendered::RunTest(const FString& Parameters)
 {
     const auto Level = LevelScope("/Game/AutomationSample/Tests/EmptyTestLevel");
+
+    UWorld* World = AutomationCommon::GetAnyGameWorld();
+    if (!TestNotNull("World", World))
+    {
+        return false;
+    }
+
+    APlayerController* PC = World->GetFirstPlayerController();
+    if (!TestNotNull("PC", PC))
+    {
+        return false;
+    }
+
+    SWindow* Window = PC->GetLocalPlayer()->ViewportClient->GetWindow().Get();
+    if (!TestNotNull("Window", Window))
+    {
+        return false;
+    }
+    Window->Resize(FVector2D(1280.0f, 720.0f));
 
     ADD_LATENT_AUTOMATION_COMMAND(FTakeUIScreenshotLatentCommand("ui_check_screenshot"));
     return true;
@@ -80,6 +106,13 @@ bool FHealthWidgetShouldBeRenderedCorrectrlAfterDamage::RunTest(const FString& P
     {
         return false;
     }
+
+    SWindow* Window = PC->GetLocalPlayer()->ViewportClient->GetWindow().Get();
+    if (!TestNotNull("Window", Window))
+    {
+        return false;
+    }
+    Window->Resize(FVector2D(1280.0f, 720.0f));
 
     APawn* Pawn = PC->GetPawn();
     if (!TestNotNull("Pawn", Pawn))
@@ -109,6 +142,13 @@ bool FSettingsWidgetShouldBeRendedOnPause::RunTest(const FString& Parameters)
     {
         return false;
     }
+
+    SWindow* Window = PC->GetLocalPlayer()->ViewportClient->GetWindow().Get();
+    if (!TestNotNull("Window", Window))
+    {
+        return false;
+    }
+    Window->Resize(FVector2D(1280.0f, 720.0f));
 
     ExecuteInputAction(PC, "IA_Pause", 1.0f);
 
