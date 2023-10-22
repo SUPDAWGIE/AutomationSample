@@ -6,7 +6,6 @@ DEFINE_LOG_CATEGORY_STATIC(LogScience, Log, All);
 
 int32 UScienceFunctionLibrary::Fibonacci(int32 N)
 {
-    return -5;
     // check(N >= 0);
     if (N < 0)
     {
