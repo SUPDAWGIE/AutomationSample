@@ -33,10 +33,7 @@ void ASupPlayerController::SetupInputComponent()
 
     check(InputComponent);
     UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(InputComponent);
-    if (!EnhancedInputComponent)
-    {
-        return;
-    }
+    check(EnhancedInputComponent);
 
     EnhancedInputComponent->BindAction(PauseAction, ETriggerEvent::Started, this, &ASupPlayerController::ToggleGamePause);
 }

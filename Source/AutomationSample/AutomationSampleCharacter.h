@@ -70,7 +70,7 @@ public:
     FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
     UFUNCTION(BlueprintCallable, Category = "Health")
-    float GetHealthPercent() const;
+    FORCENOINLINE float GetHealthPercent() const;
 
 protected:
     UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
