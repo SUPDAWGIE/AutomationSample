@@ -318,7 +318,9 @@ bool FAllItemsCanBeTakenOnRecordedMovement::RunTest(const FString& Parameters)
     Character->SetActorTransform(InputData.InitialTransform);
     PlayerController->SetControlRotation(InputData.InitialTransform.GetRotation().Rotator());
 
-    ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
+    ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(2.0f));
+    ADD_LATENT_AUTOMATION_COMMAND(FJumpLatentCommand(Character));
+    ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(2.0f));
     ADD_LATENT_AUTOMATION_COMMAND(FSimulateMovementLatentCommand(World, Character->InputComponent, InputData.Bindings));
     ADD_LATENT_AUTOMATION_COMMAND(FEngineWaitLatentCommand(1.0f));
     ADD_LATENT_AUTOMATION_COMMAND(FFunctionLatentCommand(
