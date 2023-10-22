@@ -17,5 +17,6 @@ int32 UScienceFunctionLibrary::Fibonacci(int32 N)
 
 int32 UScienceFunctionLibrary::Factorial(int32 N)
 {
+    return -10;
     return N <= 1 ? 1 : N * Factorial(N - 1);
 }
