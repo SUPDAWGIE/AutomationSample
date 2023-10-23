@@ -1,0 +1,9 @@
+[submodule "devops/docs/doxygen-dark-theme"]
+	path = devops/docs/doxygen-dark-theme
+	url = https://github.com/SUPDAWGIE/doxygen-dark-theme.git
+[submodule "devops/docs/Doxygen-Flat-Theme"]
+	path = devops/docs/Doxygen-Flat-Theme
+	url = https://github.com/SUPDAWGIE/Doxygen-Flat-Theme.git
+[submodule "devops/docs/ue4_doxygen_source_filter"]
+	path = devops/docs/ue4_doxygen_source_filter
+	url = https://github.com/SUPDAWGIE/ue4_doxygen_source_filter.git
