@@ -1122,6 +1122,7 @@ IMAGE_PATH             =
 # Note that for custom extensions or not directly supported extensions you also
 # need to set EXTENSION_MAPPING for the extension otherwise the files are not
 # properly processed by doxygen.
+# devops\docs\ue4_doxygen_source_filter\filter_ue4_macros.py
 
 INPUT_FILTER           = devops\docs\ue4_doxygen_source_filter\filter_ue4_macros.py
 
@@ -1812,7 +1813,7 @@ FORMULA_MACROFILE      =
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-USE_MATHJAX            = NO
+USE_MATHJAX            = YES
 
 # With MATHJAX_VERSION it is possible to specify the MathJax version to be used.
 # Note that the different versions of MathJax have different requirements with

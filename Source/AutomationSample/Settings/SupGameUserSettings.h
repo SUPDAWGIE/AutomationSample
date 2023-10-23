@@ -22,6 +22,9 @@ public:
 
     const TArray<USupGameSetting*>& GetVideoSettings() const;
 
+    /**
+     * Run a benchmark to find the best settings for the current hardware
+     */
     void RunBenchmark();
 
     FOnSettingsUpdatedDelegate OnSettingsUpdated;

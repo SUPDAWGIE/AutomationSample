@@ -15,6 +15,13 @@ class AUTOMATIONSAMPLE_API UTPSInventoryActorComponent : public UActorComponent
 public:
     UTPSInventoryActorComponent();
 
+    /**
+     * Try to add an item to the inventory
+     * Score of the data can't be < 0
+     * Final score might be less than the corresponding limit
+     * @param Data
+     * @return true if the item was added
+     */
     bool TryAddItem(const FInventoryData& Data);
 
     UFUNCTION(BlueprintCallable)

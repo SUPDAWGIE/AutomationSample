@@ -10,7 +10,10 @@ public:
     Battery() = default;
     Battery(float InPercent);
 
+    //! \todo Add parameter for charge
     void Charge();
+
+    //! \todo Add parameter for discharge
     void Discharge();
 
     float GetPercent() const;
