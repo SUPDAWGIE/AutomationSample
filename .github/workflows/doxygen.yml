@@ -7,9 +7,55 @@ on:
     branches: 
     - main
 
+permissions:
+  pages: write
+  deployments: write
+  id-token: write
+  
+env:
+  CONAN_REVISIONS_ENABLED: 1
+
 jobs:
   docs:
     runs-on: windows-latest
+
+    environment:
+     name: github-pages
+     url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Check Installed Software
-        run: echo "Check soft"
+        run: where git & where python & where pip
+        shell: cmd
+        
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+        with:
+          submodules: 'recursive'
+          repository: SUPDAWGIE/AutomationSample
+          ref: main
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Install Conan
+        run: pip install conan
+        
+      - name: Install Doxygen
+        run: conan download doxygen/1.9.4@#2af713e135f12722e3536808017ba086:e94378795f92fbf88bb8cef7f9c2f38c4ecf9126 --remote conancenter
+        
+      - name: Run Doxygen
+        run: doxygen devops\docs\Doxyfile
+        
+      - name: Upload Docs
+        uses: actions/upload-pages-artifact@v2.0.0
+        with:
+          path: Documentation\html
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v3.0.6
+        with:
+          enablement: true
+          token: ${{ secrets.PAT_TOKEN }}
+        
+      - name: Deploy To GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1.2.9
