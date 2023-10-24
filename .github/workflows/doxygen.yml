@@ -33,6 +33,12 @@ jobs:
         with:
           submodules: 'recursive'
 
+      - name: Set up Git
+        run: |
+          git config --global user.email "shofpita@gmail.com"
+          git config --global user.name "SUPDAWGIE"
+          git config --global credential.helper store
+
       - name: Install Conan
         run: pip install conan
         
@@ -53,3 +59,7 @@ jobs:
       - name: Deploy To GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        
+    env:
+      CONAN_REVISIONS_ENABLED: 1
+      GH_PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
