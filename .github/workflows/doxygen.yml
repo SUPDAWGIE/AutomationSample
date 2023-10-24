@@ -33,7 +33,7 @@ jobs:
         with:
           submodules: 'recursive'
           # Make sure the repository URL is correct
-          repository: SUPDAWGIE/AutomationSample
+          repository: https://github.com/SUPDAWGIE/AutomationSample
 
       - name: Set up Git
         run: |
