@@ -1,18 +1,17 @@
 name: Game Documentation
-
 on:
   push:
-    branches:
-      - main
+    branches: 
+    - master
   pull_request:
-    branches:
-      - main
+    branches: 
+    - master
 
 permissions:
   pages: write
   deployments: write
   id-token: write
-
+  
 env:
   CONAN_REVISIONS_ENABLED: 1
 
@@ -21,52 +20,36 @@ jobs:
     runs-on: windows-latest
 
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+     name: github-pages
+     url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Check Installed Software
-        run: |
-          where git
-          where python
-          where pip
+        run: where git & where python & where pip
         shell: cmd
-
+        
       - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: 'recursive'
-          # Make sure the repository URL is correct
-          repository: SUPDAWGIE/AutomationSample
-
-      - name: Set up Git
-        run: |
-          git config --global user.email "shofpita@gmail.com"
-          git config --global user.name "SUPDAWGIE"
-          git config --global credential.helper store
 
       - name: Install Conan
         run: pip install conan
-
+        
       - name: Install Doxygen
         run: conan download doxygen/1.9.4@#2af713e135f12722e3536808017ba086:e94378795f92fbf88bb8cef7f9c2f38c4ecf9126 --remote conancenter
-
+        
       - name: Run Doxygen
         run: doxygen devops\docs\Doxyfile
-
+        
       - name: Upload Docs
         uses: actions/upload-pages-artifact@v1
         with:
           path: Documentation\html
-
+        
       - name: Setup Pages
         uses: actions/configure-pages@v2
-
+        
       - name: Deploy To GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
-    env:
-      CONAN_REVISIONS_ENABLED: 1
-      # Use the PAT_TOKEN secret you created
-      GH_PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
