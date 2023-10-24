@@ -32,6 +32,9 @@ jobs:
         uses: actions/checkout@v4.1.1
         with:
           submodules: 'recursive'
+          repository: SUPDAWGIE/AutomationSample
+          ref: main
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Install Conan
         run: pip install conan
