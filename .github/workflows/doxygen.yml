@@ -1,4 +1,5 @@
 name: Game Documentation
+
 on:
   push:
     branches:
@@ -25,7 +26,10 @@ jobs:
 
     steps:
       - name: Check Installed Software
-        run: where git & where python & where pip
+        run: |
+          where git
+          where python
+          where pip
         shell: cmd
 
       - name: Checkout
