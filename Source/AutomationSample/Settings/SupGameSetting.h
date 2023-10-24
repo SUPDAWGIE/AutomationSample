@@ -43,5 +43,5 @@ private:
 
     int32 GetCurrentValue() const;
     void SetCurrentValue(int32 InValue);
-    FORCENOINLINE int32 GetCurrentIndex() const;
+    int32 GetCurrentIndex() const;
 };

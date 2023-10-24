@@ -1,5 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
+using System.Linq;
 using UnrealBuildTool;
 
 public class AutomationSample : ModuleRules
@@ -13,5 +14,10 @@ public class AutomationSample : ModuleRules
             "UMG", "FunctionalTesting", "SlateCore" });
 
         PublicIncludePaths.Add("AutomationSample");
+
+        if (base.Target.ProjectDefinitions.Contains("UNOPTIMIZED_CODE"))
+        {
+            OptimizeCode = CodeOptimization.Never;
+        }
     }
 }
