@@ -1,0 +1,15 @@
+name: Game Documentation
+on:
+  push:
+    branches: 
+    - main
+  pull_request:
+    branches: 
+    - main
+
+jobs:
+  docs:
+    runs-on: windows-latest
+    steps:
+      - name: Check Installed Software
+        run: echo "Check soft"
