@@ -48,7 +48,7 @@ jobs:
           path: Documentation\html
         
       - name: Setup Pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v3.0.6
         
       - name: Deploy To GitHub Pages
         id: deployment
