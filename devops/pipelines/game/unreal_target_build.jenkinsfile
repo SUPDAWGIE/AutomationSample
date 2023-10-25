@@ -13,12 +13,6 @@ pipeline {
         }
     }
 
-    parameters {
-      choice name: 'CONFIG', choices: ['Development', 'Shipping', 'DebugGame'], description: 'Build configuration'
-      choice name: 'PLATFORM', choices: ['Win64', 'Android', 'Linux'], description: 'Build platform'
-      string name: 'GIT_BRANCH_GAME', defaultValue: 'main'
-    }
-
     /* environment {
         GIT_URL_GAME = 'https://github.com/life-exe/UnrealTPSGame'
         GIT_CREDENTIALS_GAME = 'life-exe-github'
