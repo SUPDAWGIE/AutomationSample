@@ -14,9 +14,8 @@ ASupPlayerController::ASupPlayerController()
 void ASupPlayerController::ToggleGamePause()
 {
     bInPause=!bInPause;
-    
-        SetPause(bInPause);
-                bShowMouseCursor = bInPause;
+    SetPause(bInPause);
+    bShowMouseCursor = bInPause;
     bInPause                                                                     //
         ? SetInputMode(FInputModeGameAndUI().SetHideCursorDuringCapture(false))  //
         : SetInputMode(FInputModeGameOnly());
