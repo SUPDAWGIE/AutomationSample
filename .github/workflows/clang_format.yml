@@ -1,0 +1,26 @@
+name: Clang Forma Verification
+on:
+  push:
+    branches: 
+    - main
+  pull_request:
+    branches: 
+    - main
+
+jobs:
+  format-checking:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+        with:
+          repository: SUPDAWGIE/AutomationSample
+          ref: main
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Run clang-format
+        uses: jidicula/clang-format-action@v4.9.0
+        with:
+          clang-format-version: '13'
+          check-path: 'Source'
