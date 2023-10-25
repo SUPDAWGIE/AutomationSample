@@ -1,4 +1,4 @@
-name: Clang Forma Verification
+name: Clang Format Verification
 on:
   push:
     branches: 
