@@ -44,7 +44,7 @@ pipeline {
         stage('Generate docs') {
             steps {
                 bat '''
-                    "%DOXYGEN_PATH%" "%DOXYFILE_PATH%"
+                    %DOXYGEN_PATH% %DOXYFILE_PATH%
                 '''
             }
         }
