@@ -10,10 +10,15 @@ public class AutomationSample : ModuleRules
         PrivateDependencyModuleNames.AddRange(new string[] { "AITestSuite" });
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Json", "JsonUtilities",
-            "UMG", "FunctionalTesting", "SlateCore" });
+        PublicDependencyModuleNames.AddRange(
+            new[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Json", "JsonUtilities", "UMG", "SlateCore" });
 
         PublicIncludePaths.Add("AutomationSample");
+
+        if (Target.Configuration != UnrealTargetConfiguration.Shipping)
+        {
+            PrivateDependencyModuleNames.Add("FunctionalTesting");
+        }
 
         if (base.Target.ProjectDefinitions.Contains("UNOPTIMIZED_CODE"))
         {
