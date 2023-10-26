@@ -8,7 +8,7 @@ def ColorFromBuildResult(result){
 pipeline {
     agent {
         node {
-            label ""
+            label "unreal_test_runner_label"
             customWorkspace "$BUILD_DIR"
         }
     }
@@ -44,7 +44,7 @@ pipeline {
         stage('Generate docs') {
             steps {
                 bat '''
-                    "%DOXYGEN_PATH%" "%DOXYFILE_PATH%"
+                    %DOXYGEN_PATH% %DOXYFILE_PATH%
                 '''
             }
         }
