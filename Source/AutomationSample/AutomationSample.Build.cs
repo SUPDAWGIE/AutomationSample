@@ -7,7 +7,6 @@ public class AutomationSample : ModuleRules
 {
     public AutomationSample(ReadOnlyTargetRules Target) : base(Target)
     {
-        PrivateDependencyModuleNames.AddRange(new string[] { "AITestSuite" });
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
         PublicDependencyModuleNames.AddRange(
@@ -18,6 +17,7 @@ public class AutomationSample : ModuleRules
         if (Target.Configuration != UnrealTargetConfiguration.Shipping)
         {
             PrivateDependencyModuleNames.Add("FunctionalTesting");
+            PrivateDependencyModuleNames.Add("AITestSuite");
         }
 
         if (base.Target.ProjectDefinitions.Contains("UNOPTIMIZED_CODE"))
