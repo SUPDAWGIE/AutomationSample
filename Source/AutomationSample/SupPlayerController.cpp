@@ -13,7 +13,7 @@ ASupPlayerController::ASupPlayerController()
 
 void ASupPlayerController::ToggleGamePause()
 {
-    bInPause=!bInPause;
+    bInPause = !bInPause;
     SetPause(bInPause);
     bShowMouseCursor = bInPause;
     bInPause                                                                     //
