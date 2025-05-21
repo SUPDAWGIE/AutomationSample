@@ -8,7 +8,7 @@
 #include "Weapon/TPSTurret.h"
 
 BEGIN_DEFINE_SPEC(FTurret, "AutomationSample.Turret",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
 
 UWorld* World;
 const FTransform InitialTransform{FVector(0.0f, 200.0f, 0.0f)};

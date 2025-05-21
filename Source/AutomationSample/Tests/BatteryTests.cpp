@@ -8,7 +8,7 @@
 #include "Items/Battery.h"
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FBatteryTests, "AutomationSample.Items.Battery",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
 
 bool FBatteryTests::RunTest(const FString& Parameters)
 {

@@ -9,16 +9,16 @@
 #include "Science/ScienceFunctionLibrary.h"
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FFibonacciSimple, "AutomationSample.Science.Fibonacci.Simple",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FFibonacciStress, "AutomationSample.Science.Fibonacci.Stress",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::LowPriority)
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::LowPriority)
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FFibonacciLogHasErrors, "AutomationSample.Science.Fibonacci.LogHasErrors",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
 
 DEFINE_SPEC(FFactorial, "AutomationSample.Science.Factorial",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority)
 
 bool FFibonacciSimple::RunTest(const FString& Parameters)
 {

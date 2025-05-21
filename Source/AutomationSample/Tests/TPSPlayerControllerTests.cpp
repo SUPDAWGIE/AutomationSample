@@ -10,7 +10,7 @@
 #include "EnhancedPlayerInput.h"
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FGameCanBeUnpaused, "AutomationSample.PlayerController.GameCanBeUnpaused",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
 
 using namespace TPS::Test;
 

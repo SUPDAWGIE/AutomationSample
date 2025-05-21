@@ -9,7 +9,7 @@
 #include "Settings/SupGameUserSettings.h"
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSettingsShouldExist, "AutomationSample.GameUserSettings.SettingsShouldExist",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority);
 
 using namespace TPS::Test;
 

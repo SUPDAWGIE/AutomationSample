@@ -10,20 +10,20 @@
 #include "Engine/DamageEvents.h"
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FRenderingShouldBeCorrect, "AutomationSample.Screenshots.RenderingShouldBeCorrect",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority |
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority |
         EAutomationTestFlags::NonNullRHI);
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FMainPlayerHudShouldBeRendered, "AutomationSample.Screenshots.MainPlayerHudShouldBeRendered",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority |
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority |
         EAutomationTestFlags::NonNullRHI);
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FHealthWidgetShouldBeRenderedCorrectrlAfterDamage,
     "AutomationSample.Screenshots.HealthWidgetShouldBeRenderedCorrectrlAfterDamage",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority |
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority |
         EAutomationTestFlags::NonNullRHI);
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSettingsWidgetShouldBeRendedOnPause, "AutomationSample.Screenshots.SettingsWidgetShouldBeRendedOnPause",
-    EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority |
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter | EAutomationTestFlags::HighPriority |
         EAutomationTestFlags::NonNullRHI);
 
 using namespace TPS::Test;
